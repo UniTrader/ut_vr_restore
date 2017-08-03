@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content id="ut_vr_restore" name="X Rebirth Restore for VR Edition" description="Restores the Vanilla Universe and other Content in X Rebirth VR Edition" author="UniTrader" version="100" date="2016-06-06" enabled="false">
+  <dependency version="410" />
+  <dependency id="ego_vr" version="100" />
+</content>
