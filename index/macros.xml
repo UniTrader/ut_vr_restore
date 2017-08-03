@@ -6,33 +6,33 @@
 	<entry name="cluster_d_superhighway*" value="maps\xu_ep1_universe\sechighways"/>
 	<entry name="cluster_e_superhighway*" value="maps\xu_ep1_universe\sechighways"/>
 	<entry name="cluster_f_superhighway*" value="maps\xu_ep1_universe\sechighways"/>
-	<entry name="cluster_t_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_t_Sector01_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_t_Sector02_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_t_Sector01_Zone*" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_t_Sector02_Zone*" value="maps\xu_ep1_universe\zones"/>
-	<entry name="cluster_t_zonehighway*" value="maps\xu_ep1_universe\zonehighways"/>
-	<entry name="cluster_t_superhighway*" value="maps\xu_ep1_universe\sechighways"/>
-	<entry name="cluster_m_macro" value="maps\xu_ep1_universe\clusters"/>
-	<entry name="cluster_m_sector01_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_m_sector02_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_m_sector03_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_m_sector04_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_n_macro" value="maps\xu_ep1_universe\clusters"/>
-	<entry name="cluster_n_sector01_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_l_macro" value="maps\xu_ep1_universe\clusters"/>
-	<entry name="cluster_l_sector01_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_l_sector02_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="cluster_l_sector03_macro" value="maps\xu_ep1_universe\sectors"/>
-	<entry name="tzonecluster_m_*" value="maps\xu_ep1_universe\zones"/>
-	<entry name="tzonecluster_n_*" value="maps\xu_ep1_universe\zones"/>
-	<entry name="tzonecluster_l_*" value="maps\xu_ep1_universe\zones"/>
-	<entry name="cluster_m_highway*" value="maps\xu_ep1_universe\zonehighways"/>
-	<entry name="cluster_m_superhighway*" value="maps\xu_ep1_universe\sechighways"/>
-	<entry name="cluster_n_highway*" value="maps\xu_ep1_universe\zonehighways"/>
-	<entry name="cluster_n_superhighway*" value="maps\xu_ep1_universe\sechighways"/>
-	<entry name="cluster_l_highway*" value="maps\xu_ep1_universe\zonehighways"/>
-	<entry name="cluster_l_superhighway*" value="maps\xu_ep1_universe\sechighways"/>
+	<entry name="cluster_t_macro" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_t_Sector01_macro" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_t_Sector02_macro" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_t_Sector01_Zone*" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_t_Sector02_Zone*" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\zones"/>
+	<entry name="cluster_t_zonehighway*" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\zonehighways"/>
+	<entry name="cluster_t_superhighway*" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\sechighways"/>
+	<entry name="cluster_m_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\clusters"/>
+	<entry name="cluster_m_sector01_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_m_sector02_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_m_sector03_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_m_sector04_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_n_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\clusters"/>
+	<entry name="cluster_n_sector01_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_l_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\clusters"/>
+	<entry name="cluster_l_sector01_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_l_sector02_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sectors"/>
+	<entry name="cluster_l_sector03_macro" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sectors"/>
+	<entry name="tzonecluster_m_*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\zones"/>
+	<entry name="tzonecluster_n_*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\zones"/>
+	<entry name="tzonecluster_l_*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\zones"/>
+	<entry name="cluster_m_highway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\zonehighways"/>
+	<entry name="cluster_m_superhighway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sechighways"/>
+	<entry name="cluster_n_highway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\zonehighways"/>
+	<entry name="cluster_n_superhighway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sechighways"/>
+	<entry name="cluster_l_highway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\zonehighways"/>
+	<entry name="cluster_l_superhighway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sechighways"/>
 	<entry name="superhighway*" value="maps\xu_ep1_universe\sechighways"/>
 	<entry name="cluster_a_sector*" value="maps\xu_ep1_universe\sectors"/>
 	<entry name="cluster_b_sector*" value="maps\xu_ep1_universe\sectors"/>
