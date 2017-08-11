@@ -1,23 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
-<mdscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ut_vr_restore" xsi:noNamespaceSchemaLocation="md.xsd">
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<mdscript name="UT_VR_Restore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/md.xsd">
    <cues>
-      <cue name="open_the_doors" instantiate="true">
+      <cue name="Open_the_doors" instantiate="true">
         <conditions>
           <event_object_changed_room object="player.entity"/>
           <check_value value="player.entity.container != player.primaryship"/>
         </conditions>
         <actions>
           <do_if value="player.platform">
-            <set_all_doors_locked room="player.platform" locked="false"/>
+            <set_all_doors_locked room="player.platform" locked="false" />
           </do_if>
         </actions>
       </cue>
-      <cue name="restore_cut_stuff" comment="cockpits">
+      <cue name="Restore_cut_stuff" comment="cockpits">
         <conditions>
-          <event_cue_completed cue="md.Setup.Start" check="true"/>
+          <check_any>
+            <cue_is_complete cue="md.Setup.Start"/>
+            <event_cue_completed cue="md.Setup.Start"/>
+          </check_any>
         </conditions>
         <actions>
-          <append_to_list name="md.$CockpitUpgradetraderLists.{1}" exact="[ware.spe_cockpit_fight, 1, 1, 100]"/><!-- maybe .{1}.{1} - have to check -->
+          <set_value name="$add" exact="true"/>
+          <do_all exact="md.$CockpitUpgradetraderLists.{1}.count" counter="$i">
+            <do_if value="md.$CockpitUpgradetraderLists.{1}.{$i}.{1} == ware.spe_cockpit_default">
+              <set_value name="$add" exact="false"/>
+              <break/>
+            </do_if>
+          </do_all>
+          <do_if value="$add">
+            <append_to_list name="md.$CockpitUpgradetraderLists.{1}" exact="[ware.spe_cockpit_default, 1, 1, 100]"/><!-- maybe .{1}.{1} - have to check -->
+          </do_if>
+          <remove_value name="$add"/>
         </actions>
       </cue>
    </cues>
