@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <replace sel="//macro[@name='Cluster_A_macro']/@name">Cluster_VR_A_macro</replace>
+  <replace sel="//macro[@name='cluster_B_macro']/@name">cluster_VR_B_macro</replace>
+  <replace sel="//macro[@name='Cluster_C_macro']/@name">Cluster_VR_C_macro</replace>
+  <replace sel="//macro[@name='Cluster_D_macro']/@name">Cluster_VR_D_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_macro']/@name">Cluster_VR_T_macro</replace>
+  <replace sel="//macro[@name='Cluster_L_macro']/@name">Cluster_VR_L_macro</replace>
+  <replace sel="//macro[@name='Cluster_M_macro']/@name">Cluster_VR_M_macro</replace>
+  <replace sel="//macro[@name='Cluster_N_macro']/@name">Cluster_VR_N_macro</replace>
+  <!-- Cluster A Stuff -->
+  <replace sel="//macro[@ref='Cluster_A_Sector01_macro']/@ref">Cluster_VR_A_Sector01_macro</replace>
+  <!--<replace sel="//macro[@ref='Cluster_A_Sector02_macro']/@ref">Cluster_VR_A_Sector02_macro</replace>-->
+  <replace sel="//macro[@ref='Cluster_A_Sector03_macro']/@ref">Cluster_VR_A_Sector03_macro</replace>
+<!-- SHW Connections -->
+<!--
+        <macro ref="Cluster_A_SuperHighway01_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_A_Sector01SHCon7_GateZone_macro" path="../../Cluster_A_Sector01_connection/tzoneCluster_A_Sector01SHCon7_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_A_Sector02SHCon11_GateZone_macro" path="../../Cluster_A_Sector02_connection/tzoneCluster_A_Sector02SHCon11_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+        <macro ref="Cluster_A_SuperHighway02_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_A_Sector01SHCon8_GateZone_macro" path="../../Cluster_A_Sector01_connection/tzoneCluster_A_Sector01SHCon8_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_A_Sector02SHCon12_GateZone_macro" path="../../Cluster_A_Sector02_connection/tzoneCluster_A_Sector02SHCon12_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+        <macro ref="Cluster_A_SuperHighway04_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_A_Sector02SHCon8_GateZone_macro" path="../../Cluster_A_Sector02_connection/tzoneCluster_A_Sector02SHCon8_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_A_Sector03SHCon12_GateZone_macro" path="../../Cluster_A_Sector03_connection/tzoneCluster_A_Sector03SHCon12_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+        <macro ref="Cluster_A_SuperHighway03_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_A_Sector02SHCon7_GateZone_macro" path="../../Cluster_A_Sector02_connection/tzoneCluster_A_Sector02SHCon7_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_A_Sector03SHCon11_GateZone_macro" path="../../Cluster_A_Sector03_connection/tzoneCluster_A_Sector03SHCon11_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+-->
+
+<!-- Cluster B Stuff -->
+  <replace sel="//macro[@ref='Cluster_B_Sector04_macro']/@ref">Cluster_VR_B_Sector04_macro</replace>
+  <replace sel="//macro[@ref='Cluster_B_Sector05_macro']/@ref">Cluster_VR_B_Sector05_macro</replace>
+  <replace sel="//macro[@ref='Cluster_B_Sector06_macro']/@ref">Cluster_VR_B_Sector06_macro</replace>
+  <replace sel="//macro[@ref='Cluster_B_Sector07_macro']/@ref">Cluster_VR_B_Sector07_macro</replace>
+<!-- SHW connections-->
+<!--
+      <connection name="Cluster_B_SuperHighway01_connection" ref="sechighways">
+        <offset>
+          <position x="-7886812.5" y="1686191.625" z="19934356" />
+        </offset>
+        <macro ref="Cluster_B_SuperHighway01_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_B_Sector07SHCon6_GateZone_macro" path="../../Cluster_B_Sector07_connection/tzoneCluster_B_Sector07SHCon6_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_B_Sector06SHCon5_GateZone_macro" path="../../Cluster_B_Sector06_connection/tzoneCluster_B_Sector06SHCon5_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_B_SuperHighway02_connection" ref="sechighways">
+        <offset>
+          <position x="-7786812.5" y="1686191.625" z="19934356" />
+        </offset>
+        <macro ref="Cluster_B_SuperHighway02_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_B_Sector07SHCon10_GateZone_macro" path="../../Cluster_B_Sector07_connection/tzoneCluster_B_Sector07SHCon10_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_B_Sector06SHCon9_GateZone_macro" path="../../Cluster_B_Sector06_connection/tzoneCluster_B_Sector06SHCon9_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_B_SuperHighway03_connection" ref="sechighways">
+        <offset>
+          <position x="-13404465" y="-360702.09375" z="6782541" />
+        </offset>
+        <macro ref="Cluster_B_SuperHighway03_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_B_Sector06SHCon6_GateZone_macro" path="../../Cluster_B_Sector06_connection/tzoneCluster_B_Sector06SHCon6_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_B_Sector05SHCon5_GateZone_macro" path="../../Cluster_B_Sector05_connection/tzoneCluster_B_Sector05SHCon5_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_B_SuperHighway04_connection" ref="sechighways">
+        <offset>
+          <position x="-13304465" y="-360702.09375" z="6782541" />
+        </offset>
+        <macro ref="Cluster_B_SuperHighway04_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_B_Sector06SHCon10_GateZone_macro" path="../../Cluster_B_Sector06_connection/tzoneCluster_B_Sector06SHCon10_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_B_Sector05SHCon9_GateZone_macro" path="../../Cluster_B_Sector05_connection/tzoneCluster_B_Sector05SHCon9_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_B_SuperHighway05_connection" ref="sechighways">
+        <offset>
+          <position x="3990351.5" y="-4515246" z="-16393158" />
+        </offset>
+        <macro ref="Cluster_B_SuperHighway05_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_B_Sector05SHCon6_GateZone_macro" path="../../Cluster_B_Sector05_connection/tzoneCluster_B_Sector05SHCon6_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_B_Sector04SHCon8_GateZone_macro" path="../../Cluster_B_Sector04_connection/tzoneCluster_B_Sector04SHCon8_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_B_SuperHighway06_connection" ref="sechighways">
+        <offset>
+          <position x="4040351.5" y="-4515246" z="-16343158" />
+        </offset>
+        <macro ref="Cluster_B_SuperHighway06_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_B_Sector05SHCon10_GateZone_macro" path="../../Cluster_B_Sector05_connection/tzoneCluster_B_Sector05SHCon10_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_B_Sector04SHCon7_GateZone_macro" path="../../Cluster_B_Sector04_connection/tzoneCluster_B_Sector04SHCon7_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+-->
+
+<!-- Cluster C Stuff -->
+  <replace sel="//macro[@ref='Cluster_C_Sector08_macro']/@ref">Cluster_VR_C_Sector08_macro</replace>
+  <replace sel="//macro[@ref='Cluster_C_Sector09_macro']/@ref">Cluster_VR_C_Sector09_macro</replace>
+  <replace sel="//macro[@ref='Cluster_C_Sector10_macro']/@ref">Cluster_VR_C_Sector10_macro</replace>
+  <replace sel="//macro[@ref='Cluster_C_Sector11_macro']/@ref">Cluster_VR_C_Sector11_macro</replace>
+<!-- SHW connections-->
+<!--
+      <connection name="Cluster_C_SuperHighway01_connection" ref="sechighways">
+        <offset>
+          <position x="537088.375" y="9115942" z="7108570.5" />
+        </offset>
+        <macro ref="Cluster_C_SuperHighway01_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_C_Sector09SHCon11_GateZone_macro" path="../../Cluster_C_Sector09_connection/tzoneCluster_C_Sector09SHCon11_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_C_Sector11SHCon11_GateZone_macro" path="../../Cluster_C_Sector11_connection/tzoneCluster_C_Sector11SHCon11_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_C_SuperHighway02_connection" ref="sechighways">
+        <offset>
+          <position x="-10925430" y="16852908" z="8402039" />
+        </offset>
+        <macro ref="Cluster_C_SuperHighway02_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_C_Sector09SHCon1_GateZone_macro" path="../../Cluster_C_Sector09_connection/tzoneCluster_C_Sector09SHCon1_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_C_Sector10SHCon3_GateZone_macro" path="../../Cluster_C_Sector10_connection/tzoneCluster_C_Sector10SHCon3_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_C_SuperHighway03_connection" ref="sechighways">
+        <offset>
+          <position x="-10438787" y="13851805" z="-3701160.75" />
+        </offset>
+        <macro ref="Cluster_C_SuperHighway03_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_C_Sector09SHCon10_GateZone_macro" path="../../Cluster_C_Sector09_connection/tzoneCluster_C_Sector09SHCon10_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_C_Sector08SHCon9_GateZone_macro" path="../../Cluster_C_Sector08_connection/tzoneCluster_C_Sector08SHCon9_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_C_SuperHighway04_connection" ref="sechighways">
+        <offset>
+          <position x="2595590.25" y="9115942" z="4570699" />
+        </offset>
+        <macro ref="Cluster_C_SuperHighway04_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_C_Sector09SHCon12_GateZone_macro" path="../../Cluster_C_Sector09_connection/tzoneCluster_C_Sector09SHCon12_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_C_Sector11SHCon12_GateZone_macro" path="../../Cluster_C_Sector11_connection/tzoneCluster_C_Sector11SHCon12_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_C_SuperHighway05_connection" ref="sechighways">
+        <offset>
+          <position x="-10925430" y="16852908" z="8252039" />
+        </offset>
+        <macro ref="Cluster_C_SuperHighway05_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_C_Sector09SHCon7_GateZone_macro" path="../../Cluster_C_Sector09_connection/tzoneCluster_C_Sector09SHCon7_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_C_Sector10SHCon11_GateZone_macro" path="../../Cluster_C_Sector10_connection/tzoneCluster_C_Sector10SHCon11_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_C_SuperHighway06_connection" ref="sechighways">
+        <offset>
+          <position x="-10538787" y="13851805" z="-3701160.75" />
+        </offset>
+        <macro ref="Cluster_C_SuperHighway06_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_C_Sector09SHCon6_GateZone_macro" path="../../Cluster_C_Sector09_connection/tzoneCluster_C_Sector09SHCon6_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_C_Sector08SHCon5_GateZone_macro" path="../../Cluster_C_Sector08_connection/tzoneCluster_C_Sector08SHCon5_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+-->
+
+<!-- Cluster D Stuff -->
+  <replace sel="//macro[@ref='Cluster_D_Sector17_macro']/@ref">Cluster_VR_D_Sector17_macro</replace>
+  <replace sel="//macro[@ref='Cluster_D_Sector18_macro']/@ref">Cluster_VR_D_Sector18_macro</replace>
+  <replace sel="//macro[@ref='Cluster_D_Sector19_macro']/@ref">Cluster_VR_D_Sector19_macro</replace>
+  <replace sel="//macro[@ref='Cluster_D_Sector20_macro']/@ref">Cluster_VR_D_Sector20_macro</replace>
+<!-- SHW connections-->
+<!--
+      <connection name="SuperHighway01_connection" ref="sechighways">
+        <offset>
+          <position x="-21988766" y="-18866242" z="-55924328" />
+        </offset>
+        <macro ref="SuperHighway01_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_D_Sector17SHCon5_GateZone_macro" path="../../Cluster_D_Sector17_connection/tzoneCluster_D_Sector17SHCon5_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_D_Sector19SHCon6_GateZone_macro" path="../../Cluster_D_Sector19_connection/tzoneCluster_D_Sector19SHCon6_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway02_connection" ref="sechighways">
+        <offset>
+          <position x="-25799420" y="-18866242" z="-55924328" />
+        </offset>
+        <macro ref="SuperHighway02_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_D_Sector17SHCon9_GateZone_macro" path="../../Cluster_D_Sector17_connection/tzoneCluster_D_Sector17SHCon9_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_D_Sector19SHCon10_GateZone_macro" path="../../Cluster_D_Sector19_connection/tzoneCluster_D_Sector19SHCon10_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway03_connection" ref="sechighways">
+        <offset>
+          <position x="17831946" y="10076217" z="-75625640" />
+        </offset>
+        <macro ref="SuperHighway03_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_D_Sector17SHCon3_GateZone_macro" path="../../Cluster_D_Sector17_connection/tzoneCluster_D_Sector17SHCon3_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_D_Sector20SHCon6_GateZone_macro" path="../../Cluster_D_Sector20_connection/tzoneCluster_D_Sector20SHCon6_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway04_connection" ref="sechighways">
+        <offset>
+          <position x="-4814802.5" y="-8790025" z="-131840.328125" />
+        </offset>
+        <macro ref="SuperHighway04_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_D_Sector19SHCon11_GateZone_macro" path="../../Cluster_D_Sector19_connection/tzoneCluster_D_Sector19SHCon11_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_D_Sector20SHCon7_GateZone_macro" path="../../Cluster_D_Sector20_connection/tzoneCluster_D_Sector20SHCon7_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway05_connection" ref="sechighways">
+        <offset>
+          <position x="-21989770" y="-18866242" z="44420376" />
+        </offset>
+        <macro ref="SuperHighway05_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_D_Sector18SHCon6_GateZone_macro" path="../../Cluster_D_Sector18_connection/tzoneCluster_D_Sector18SHCon6_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_D_Sector19SHCon5_GateZone_macro" path="../../Cluster_D_Sector19_connection/tzoneCluster_D_Sector19SHCon5_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway06_connection" ref="sechighways">
+        <offset>
+          <position x="-21481946" y="-18866242" z="44100376" />
+        </offset>
+        <macro ref="SuperHighway06_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_D_Sector18SHCon10_GateZone_macro" path="../../Cluster_D_Sector18_connection/tzoneCluster_D_Sector18SHCon10_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_D_Sector19SHCon9_GateZone_macro" path="../../Cluster_D_Sector19_connection/tzoneCluster_D_Sector19SHCon9_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway07_connection" ref="sechighways">
+        <offset>
+          <position x="32075090" y="10076217" z="21946934" />
+        </offset>
+        <macro ref="SuperHighway07_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_D_Sector18SHCon4_GateZone_macro" path="../../Cluster_D_Sector18_connection/tzoneCluster_D_Sector18SHCon4_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_D_Sector20SHCon5_GateZone_macro" path="../../Cluster_D_Sector20_connection/tzoneCluster_D_Sector20SHCon5_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+-->
+
+<!-- Cluster T Stuff -->
+  <replace sel="//macro[@ref='Cluster_T_Sector01_macro']/@ref">Cluster_VR_T_Sector01_macro</replace>
+  <replace sel="//macro[@ref='Cluster_T_Sector02_macro']/@ref">Cluster_VR_T_Sector02_macro</replace>
+  <replace sel="//macro[@ref='Cluster_T_Sector03_macro']/@ref">Cluster_VR_T_Sector03_macro</replace>
+<!-- SHW connections-->
+<!--
+      <connection name="Cluster_T_SuperHighway01_connection" ref="sechighways">
+        <offset>
+          <position x="42074040" y="1042223.125" z="-6714367.5" />
+        </offset>
+        <macro ref="Cluster_T_SuperHighway01_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_T_Sector01SHCon7_GateZone_macro" path="../../Cluster_T_Sector01_connection/tzoneCluster_T_Sector01SHCon7_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_T_Sector02SHCon11_GateZone_macro" path="../../Cluster_T_Sector02_connection/tzoneCluster_T_Sector02SHCon11_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_T_SuperHighway02_connection" ref="sechighways">
+        <offset>
+          <position x="42074040" y="1042223.125" z="-5776243.5" />
+        </offset>
+        <macro ref="Cluster_T_SuperHighway02_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_T_Sector01SHCon8_GateZone_macro" path="../../Cluster_T_Sector01_connection/tzoneCluster_T_Sector01SHCon8_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_T_Sector02SHCon12_GateZone_macro" path="../../Cluster_T_Sector02_connection/tzoneCluster_T_Sector02SHCon12_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+-->
+
+<!-- Cluster L Stuff-->
+  <replace sel="//macro[@ref='Cluster_L_Sector01_macro']/@ref">Cluster_VR_L_Sector01_macro</replace>
+  <replace sel="//macro[@ref='Cluster_L_Sector02_macro']/@ref">Cluster_VR_L_Sector02_macro</replace>
+  <replace sel="//macro[@ref='Cluster_L_Sector03_macro']/@ref">Cluster_VR_L_Sector03_macro</replace>
+<!-- SHW Connections -->
+<!--
+      <connection name="Cluster_L_SuperHighway03_connection" ref="sechighways">
+        <offset>
+          <position x="60075000" y="0" z="-60075000" />
+        </offset>
+        <macro ref="Cluster_L_SuperHighway03_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_L_Sector02SHCon6_GateZone_macro" path="../../Cluster_L_Sector02_connection/tzoneCluster_L_Sector02SHCon6_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_L_Sector03SHCon11_GateZone_macro" path="../../Cluster_L_Sector03_connection/tzoneCluster_L_Sector03SHCon11_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_L_SuperHighway02_connection" ref="sechighways">
+        <offset>
+          <position x="60075000" y="0" z="60080004" />
+        </offset>
+        <macro ref="Cluster_L_SuperHighway02_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_L_Sector01SHCon11_GateZone_macro" path="../../Cluster_L_Sector01_connection/tzoneCluster_L_Sector01SHCon11_GateZone_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_L_Sector02SHCon5_GateZone_macro" path="../../Cluster_L_Sector02_connection/tzoneCluster_L_Sector02SHCon5_GateZone_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_L_SuperHighway01_connection" ref="sechighways">
+        <offset>
+          <position x="60266128" y="0" z="60317732" />
+        </offset>
+        <macro ref="Cluster_L_SuperHighway01_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_L_Sector01SHCon12_GateZone_macro" path="../../Cluster_L_Sector01_connection/tzoneCluster_L_Sector01SHCon12_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_L_Sector02SHCon9_GateZone_macro" path="../../Cluster_L_Sector02_connection/tzoneCluster_L_Sector02SHCon9_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_L_SuperHighway04_connection" ref="sechighways">
+        <offset>
+          <position x="60238324" y="0" z="-60186536" />
+        </offset>
+        <macro ref="Cluster_L_SuperHighway04_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_L_Sector02SHCon10_GateZone_macro" path="../../Cluster_L_Sector02_connection/tzoneCluster_L_Sector02SHCon10_GateZone_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_L_Sector03SHCon12_GateZone_macro" path="../../Cluster_L_Sector03_connection/tzoneCluster_L_Sector03SHCon12_GateZone_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+-->
+
+<!-- Cluster M Stuff -->
+  <replace sel="//macro[@ref='Cluster_M_Sector01_macro']/@ref">Cluster_VR_M_Sector01_macro</replace>
+  <replace sel="//macro[@ref='Cluster_M_Sector02_macro']/@ref">Cluster_VR_M_Sector02_macro</replace>
+  <replace sel="//macro[@ref='Cluster_M_Sector03_macro']/@ref">Cluster_VR_M_Sector03_macro</replace>
+  <replace sel="//macro[@ref='Cluster_M_Sector04_macro']/@ref">Cluster_VR_M_Sector04_macro</replace>
+
+<!-- SHW Connections -->
+<!--
+      <connection name="Cluster_M_SuperHighway03_connection" ref="sechighways">
+        <offset>
+          <position x="60075000" y="0" z="-60075000" />
+        </offset>
+        <macro ref="Cluster_M_SuperHighway03_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="Cluster_M_Highway01_sector02_macro" path="../../Cluster_M_Sector02_connection/Cluster_M_Highway01_sector02_connection" connection="exitpoint" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="Cluster_M_Highway01_sector03_macro" path="../../Cluster_M_Sector03_connection/Cluster_M_Highway01_sector03_connection" connection="entrypoint" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_M_SuperHighway02_connection" ref="sechighways">
+        <offset>
+          <position x="60075000" y="0" z="60080004" />
+        </offset>
+        <macro ref="Cluster_M_SuperHighway02_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="Cluster_M_Highway01_sector01_macro" path="../../Cluster_M_Sector01_connection/Cluster_M_Highway01_sector01_connection" connection="exitpoint" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="Cluster_M_Highway01_sector02_macro" path="../../Cluster_M_Sector02_connection/Cluster_M_Highway01_sector02_connection" connection="entrypoint" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_M_SuperHighway04_connection" ref="sechighways">
+        <offset>
+          <position x="-60074996" y="0" z="-60050952" />
+        </offset>
+        <macro ref="Cluster_M_SuperHighway04_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="Cluster_M_Highway01_sector03_macro" path="../../Cluster_M_Sector03_connection/Cluster_M_Highway01_sector03_connection" connection="exitpoint" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="Cluster_M_Highway01_sector04_macro" path="../../Cluster_M_Sector04_connection/Cluster_M_Highway01_sector04_connection" connection="entrypoint" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="Cluster_M_SuperHighway01_connection" ref="sechighways">
+        <offset>
+          <position x="-60074996" y="0" z="60098916" />
+        </offset>
+        <macro ref="Cluster_M_SuperHighway01_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="Cluster_M_Highway01_sector01_macro" path="../../Cluster_M_Sector01_connection/Cluster_M_Highway01_sector01_connection" connection="entrypoint" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="Cluster_M_Highway01_sector04_macro" path="../../Cluster_M_Sector04_connection/Cluster_M_Highway01_sector04_connection" connection="exitpoint" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+-->
+
+<!-- Cluster N Stuff -->
+  <replace sel="//macro[@ref='Cluster_N_Sector01_macro']/@ref">Cluster_VR_N_Sector01_macro</replace>
+
+<!-- Cluster A Regions -->
+<!--
+        <macro name="Region_Zone_102_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_102" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_103_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_103" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_098_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_098" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_096_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_096" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_095_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_095" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_094_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_094" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_099_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_099" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_100_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_100" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_101_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_101" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_097_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_097" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_108_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_108" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_106_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_106" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_107_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_107" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_105_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_105" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_104_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_104" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_112_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_112" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_111_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_111" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_114_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_114" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_113_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_113" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_110_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_110" />
+          </properties>
+        </macro>
+      </connection>
+	  <connection name="Region_Zone_110_ring_connection" ref="regions">
+        <offset>
+          <position x="-3.712965E+07" y="977055.1875" z="4.909602E+07"/>
+        </offset>
+        <macro name="Region_Zone_110_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_asteroidring_v1" />
+          </properties>
+        </macro>
+      </connection>      <connection name="Region_Zone_109_connection" ref="regions">
+        <offset>
+          <position x="-52168200" y="989055.1875" z="39290352" />
+        </offset>
+        <macro name="Region_Zone_109_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_109" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_a" />
+        </macro>
+      </connection> -->
+<!-- Cluster B Regions -->
+<!--
+        <macro name="Region_Zone_027_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_027" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_028_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_028" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_030_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_030" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_029_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_029" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_032_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_032" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_031_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_031" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_033_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_033" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_019_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_019" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_020_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_020" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_021_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_021" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_022_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_022" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_023_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_023" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_024_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_024" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_025_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_025" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_026_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_026" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids_Zone_23_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="40km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids_Zone_25_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids2_Zone_25_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids3_Zone_25_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids_Zone_19_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region01_clusterbSec06_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="ice_field_common_medium" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_011_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_011" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_012_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_012" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_013_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_013" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_014_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_014" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_015_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_015" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_016_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_016" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_017_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_017" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_018_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_018" />
+          </properties>
+        </macro>
+        <macro name="Region02_clusterbSec06_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="ice_field_common_medium" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids_Zone_15_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="40km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids_Zone_14_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="40km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region01_clusterbsec07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region02_clusterbsec07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_1" />
+          </properties>
+        </macro>
+        <macro name="Region02b_clusterbsec07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_1v2" />
+          </properties>
+        </macro>
+        <macro name="Region03_clusterbsec07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region04_clusterbsec07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_001" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_002" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_003" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_004_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_004" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_005_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_005" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_006_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_006" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_007_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_007" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_008_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_008" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_009_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_009" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_010_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_010" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_b" />
+        </macro>
+      </connection>
+-->
+<!-- Cluster C Regions-->
+<!--
+        <macro name="Region_Zone_087_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_087" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_088_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_088" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_089_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_089" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_090_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_090" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_091_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_091" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_093_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_093" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_092_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_092" />
+          </properties>
+        </macro>
+        <macro name="Region01_clusterCsec09_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="asteroid_field_test" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_062_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_062" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_061_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_061" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_059_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_059" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_063_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_063" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_065_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_065" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_064_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_064" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_060_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_060" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_069_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_069" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_068_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_068" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_067_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_067" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_073_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_073" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_074_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_074" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_071_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_071" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_072_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_072" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_070_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_070" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_066_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_066" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_076_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_076" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_077_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_077" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_079_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_079" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_081_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_081" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_075_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_075" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_078_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_078" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_080_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_080" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_082_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_082" />
+          </properties>
+        </macro>
+-->
+<!-- Cluster D Regions -->
+<!--
+        <macro name="Region01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_2" />
+          </properties>
+        </macro>
+        <macro name="Region02_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="mine_field_1" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_039_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_039" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_034_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_034" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_035_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_035" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_036_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_036" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_037_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_037" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_038_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_038" />
+          </properties>
+        </macro>
+        <macro name="Region01_clusterD_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="test_nebula_region_sun" />
+          </properties>
+        </macro>
+        <macro name="Region03_clusterD_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="asteroid_field_big_sun" />
+          </properties>
+        </macro>
+        <macro name="Region04_clusterD_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="asteroid_field_big_sun" />
+          </properties>
+        </macro>
+        <macro name="Region02_clusterD_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="asteroid_field_big_sun" />
+          </properties>
+        </macro>
+        <macro name="Region01xl_clusterdsec18_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="asteroid_field_xl" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_050_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_050" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_051_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_051" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_052_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_052" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_053_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_053" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_047_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_047" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_045_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_045" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_048_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_048" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_049_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_049" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_046_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_046" />
+          </properties>
+        </macro>
+        <macro name="Region03_clusterdsec19_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region02_clusterdsec19_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region01_clusterdsec19_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_043_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_043" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_042_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_042" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_040_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_040" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_041_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_041" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_044_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_044" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_057_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_057" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_056_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_056" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_055_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_055" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_054_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_054" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_058_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_zone_058" />
+          </properties>
+        </macro>
+-->
+<!-- Cluster T Regions -->
+<!--
+        <macro name="Region_dlc1_S1_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_s01" />
+          </properties>
+        </macro>
+        <macro name="Region_dlc1_S2_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_s02" />
+          </properties>
+        </macro>
+        <macro name="Region_dlc1_S1_big_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_big_s01_01" />
+          </properties>
+        </macro>
+        <macro name="Region_dlc1_1_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_s01_01" />
+          </properties>
+        </macro>
+        <macro name="Region_dlc1_2_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_s01_02" />
+          </properties>
+        </macro>
+        <macro name="Region_dlc1_3_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_s01_03" />
+          </properties>
+        </macro>
+        <macro name="Region_dlc1_4_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_s01_04" />
+          </properties>
+        </macro>
+        <macro name="Region_dlc1_5_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_s01_05" />
+          </properties>
+        </macro>
+        <macro name="Region_dlc1_6_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_s01_06" />
+          </properties>
+        </macro>
+        <macro name="Region_dlc1_7_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_s01_07" />
+          </properties>
+        </macro>
+        <macro name="Region_dlc1_8_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_s02_01" />
+          </properties>
+        </macro>
+      </connection>
+      <!- -deadly regions- ->
+      <connection name="Region_DLC1_d1_connection" ref="regions">
+        <offset>
+          <position x="56616400" y="766278" z="-5035360" />
+          <quaternion qx="0.155762" qy="0.790498" qz="-0.0106032" qw="0.592231" />
+        </offset>
+        <macro name="Region_dlc1_d1_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_deadly_01" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="Region_DLC1_d2_connection" ref="regions">
+        <offset>
+          <position x="56458200" y="767751" z="-4914190" />
+          <quaternion qx="0" qy="0" qz="-0.0871557" qw="0.996195" />
+        </offset>
+        <macro name="Region_dlc1_d2_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_deadly_01" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="Region_DLC1_d3_connection" ref="regions">
+        <offset>
+          <position x="56396300" y="766278" z="-4836790" />
+          <quaternion qx="-0.0616284" qy="0.704416" qz="0.0616284" qw="0.704416" />
+        </offset>
+        <macro name="Region_dlc1_d3_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_deadly_01" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="Region_DLC1_d4_connection" ref="regions">
+        <offset>
+          <position x="56396300" y="766278" z="-4966350" />
+          <quaternion qx="-0.092296" qy="0.701057" qz="0.092296" qw="0.701057" />
+        </offset>
+        <macro name="Region_dlc1_d4_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_deadly_01" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="Region_DLC1_d5_connection" ref="regions">
+        <offset>
+          <position x="56345900" y="766278" z="-5059740" />
+          <quaternion qx="0.0868241" qy="-0.00759612" qz="0.0868241" qw="0.992404" />
+        </offset>
+        <macro name="Region_dlc1_d5_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_deadly_01" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="Region_DLC1_d6_connection" ref="regions">
+        <offset>
+          <position x="56449600" y="766278" z="-5124200" />
+          <quaternion qx="0" qy="0.793353" qz="0" qw="0.608761" />
+        </offset>
+        <macro name="Region_dlc1_d6_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_deadly_01" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="Region_DLC1_d7_connection" ref="regions">
+        <offset>
+          <position x="56449600" y="766278" z="-5214540" />
+          <quaternion qx="0" qy="0.653082" qz="0" qw="0.757287" />
+        </offset>
+        <macro name="Region_dlc1_d7_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_deadly_01" />
+          </properties>
+        </macro>
+      </connection>
+      <!- -minefields- ->
+      <connection name="Region_DLC1_minefield_connection" ref="regions">
+        <offset>
+          <position x="56325800" y="737062" z="-5175870" />
+        </offset>
+        <macro name="Region_dlc1_minefield_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="mine_field_piratebase" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="Region_DLC1_minefield_2_connection" ref="regions">
+        <offset>
+          <position x="56394100" y="766278" z="-5086770" />
+          <quaternion qx="0" qy="0.300706" qz="0" qw="0.953717" />
+        </offset>
+        <macro name="Region_dlc1_minefield_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_clustert_minefield_01" />
+          </properties>
+        </macro>
+      </connection>
+      <!- -debris- ->
+      <connection name="Region001ClusterTSec02_connection" ref="regions">
+        <offset>
+          <position x="210883.671875" y="969295.5625" z="-21567.68359375" />
+        </offset>
+        <macro name="Region001ClusterTSec02_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_3" />
+          </properties>
+        </macro>
+        <macro name="Region001ClusterTSec01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_5" />
+          </properties>
+        </macro>
+        <macro name="Region001ClusterTSec01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_3" />
+          </properties>
+        </macro>
+        <macro name="Region001ClusterTSec01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_3" />
+          </properties>
+        </macro>
+        <macro name="Region001ClusterTSec01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_bigasteroid_01" />
+          </properties>
+        </macro>
+        <macro name="Region0021ClusterTSec01b_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_bigasteroid_02" />
+          </properties>
+        </macro>
+        <macro name="Region005ClusterTSec01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_4" />
+          </properties>
+        </macro>
+-->
+<!-- Cluster L Regions -->
+<!--
+        <macro name="region_ClusterL_Sec01_crates_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_new_dropregion" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec02_crates_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_new_dropregion" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec03_crates_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_new_dropregion" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_00_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="nebula_region_icefield" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="80km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_02_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="nebula_region_icefield" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_03_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_04_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_06_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_08_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_05_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_05_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="nebula_region_icefield" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_04_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="nebula_region_icefield" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_03_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_02_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_06_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_08_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_00_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_03_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_04_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_05_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_06_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_08_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="Region_Zone_061_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="asteroid_ice_field_v1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_09_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="asteroid_ice_field_v1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_11_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="asteroid_ice_field_v1" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_00_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_02_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CL_S01_01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S1_01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="medium_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CL_S01_002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CL_S01_003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CL_S01_004_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S1_002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="medium_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S1_003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="medium_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S1_004_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="medium_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S1_005_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="medium_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S1_006_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="medium_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_009_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_010_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_011_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_CL_S1" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_012_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterL_Sec01_013_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_009_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_010_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S3_01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="big_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S3_002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="big_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S3_003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="big_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S3_004_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="big_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S3_005_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="big_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S3_006_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="big_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CL_S3_007_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="big_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_012_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_013_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec03_014_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_gas_resource_field" />
+          </properties>
+        </macro>
+        <macro name="region_clusterL_sec02_011_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="battlefield_xenon_khaak_big" />
+          </properties>
+        </macro>
+-->
+<!-- Cluster M Regons -->
+<!--
+        <macro name="region_ClusterM_Sec01_crates_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_new_dropregion" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterM_Sec02_crates_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_new_dropregion" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterM_Sec03_crates_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_new_dropregion" />
+          </properties>
+        </macro>
+        <macro name="region_ClusterM_Sec04_crates_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_new_dropregion" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids3_Zone_25_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids2_Zone_25_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids_Zone_25_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids_Zone_23_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="40km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids_Zone_19_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids_Zone_14_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="40km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region02_clusterbSec06_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="ice_field_common_medium" />
+          </properties>
+        </macro>
+        <macro name="RegionAsteroids_Zone_15_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="40km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region01_clusterbSec06_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="ice_field_common_medium" />
+          </properties>
+        </macro>
+        <macro name="Region02_clusterbsec07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_1" />
+          </properties>
+        </macro>
+        <macro name="Region01_clusterbsec07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region03_clusterbsec07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region04_clusterbsec07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="20km_asteroid_field" />
+          </properties>
+        </macro>
+        <macro name="Region02b_clusterbsec07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_1" />
+          </properties>
+        </macro>
+        <macro name="Region_clusterM_Sector01_04_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_explo1_sphere" />
+          </properties>
+        </macro>
+        <macro name="Region_clusterM_Sector01_03_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_explo1_sphere" />
+          </properties>
+        </macro>
+        <macro name="Region_clusterM_Sector01_01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_explo1_sphere" />
+          </properties>
+        </macro>
+        <macro name="Region_clusterM_Sector01_02_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_explo1_sphere" />
+          </properties>
+        </macro>
+        <macro name="Region_clusterM_Sector01_05_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_explo1_sphere" />
+          </properties>
+        </macro>
+        <macro name="Region_clusterM_Sector01_06_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_explo1_sphere" />
+          </properties>
+        </macro>
+        <macro name="Region_clusterM_Sector01_07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration1" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_03_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_04_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_02_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_05_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_06_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_08_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_09_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_10_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_11_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_13_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="mineregion_CM_S01_12_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_minefield" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CM_S1_09_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CM_S1_08_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CM_S1_06_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CM_S1_05_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CM_S1_04_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CM_S1_07_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CM_S1_03_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CM_S1_02_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="dangerregion_CM_S1_01_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="small_dangerregion" />
+          </properties>
+        </macro>
+        <macro name="Region_clusterM_Sector01_008_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="debris_field_1" />
+          </properties>
+        </macro>
+        <macro name="Region_Cluster_M_Sec03_001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_all_resources" />
+          </properties>
+        </macro>
+-->
+<!-- Cluster N Regions -->
+<!--
+        <macro name="Region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_1" />
+          </properties>
+        </macro>
+        <macro name="Region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_2" />
+          </properties>
+        </macro>
+        <macro name="Region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_3" />
+          </properties>
+        </macro>
+        <macro name="Region004_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_4" />
+          </properties>
+        </macro>
+        <macro name="Region005_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_5" />
+          </properties>
+        </macro>
+        <macro name="Region006_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_6" />
+          </properties>
+        </macro>
+        <macro name="Region007_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_7" />
+          </properties>
+        </macro>
+        <macro name="Region008_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region009_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region010_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region011_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region012_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region013_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region014_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region015_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region016_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region017_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region018_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region019_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region020_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region021_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region022_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region023_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region024_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region025_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region026_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region027_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region028_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region029_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region030_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region031_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region032_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region033_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region034_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region035_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region036_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region037_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region038_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region039_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region040_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="region_exploration_cl_n_xtest" />
+          </properties>
+        </macro>
+        <macro name="Region041_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="battlefield_xenon_khaak_small" />
+          </properties>
+        </macro>
+        <macro name="Region042_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="battlefield_xenon_khaak_small" />
+          </properties>
+        </macro>
+        <macro name="Region043_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="battlefield_xenon_khaak_small" />
+          </properties>
+        </macro>
+-->
+</diff>
