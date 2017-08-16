@@ -10,7 +10,7 @@
   <replace sel="//macro[@name='Cluster_N_macro']/@name">Cluster_VR_N_macro</replace>
   <!-- Cluster A Stuff -->
   <replace sel="//macro[@ref='Cluster_A_Sector01_macro']/@ref">Cluster_VR_A_Sector01_macro</replace>
-  <!--<replace sel="//macro[@ref='Cluster_A_Sector02_macro']/@ref">Cluster_VR_A_Sector02_macro</replace>-->
+  <replace sel="//macro[@ref='Cluster_A_Sector02_macro']/@ref">Cluster_VR_A_Sector02_macro</replace>
   <replace sel="//macro[@ref='Cluster_A_Sector03_macro']/@ref">Cluster_VR_A_Sector03_macro</replace>
 <!-- SHW Connections -->
 <!--
