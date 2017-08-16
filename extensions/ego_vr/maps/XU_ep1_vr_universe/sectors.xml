@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <!-- Cluster A -->
+  <replace sel="//macro[@name='Cluster_A_Sector01_macro']/@name">Cluster_VR_A_Sector01_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01_Zone94_macro']/@ref">tzoneCluster_VR_A_Sector01_Zone94_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01_Zone95_macro']/@ref">tzoneCluster_VR_A_Sector01_Zone95_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01_Zone96_macro']/@ref">tzoneCluster_VR_A_Sector01_Zone96_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01_Zone97_macro']/@ref">tzoneCluster_VR_A_Sector01_Zone97_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01_Zone98_macro']/@ref">tzoneCluster_VR_A_Sector01_Zone98_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01_Zone99_macro']/@ref">tzoneCluster_VR_A_Sector01_Zone99_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01_Zone100_macro']/@ref">tzoneCluster_VR_A_Sector01_Zone100_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01_Zone101_macro']/@ref">tzoneCluster_VR_A_Sector01_Zone101_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01_Zone102_macro']/@ref">tzoneCluster_VR_A_Sector01_Zone102_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01_Zone103_macro']/@ref">tzoneCluster_VR_A_Sector01_Zone103_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01SHCon7_GateZone_macro']/@ref">tzoneCluster_VR_A_Sector01SHCon7_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector01SHCon8_GateZone_macro']/@ref">tzoneCluster_VR_A_Sector01SHCon8_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway01Sector01_macro']/@ref">HighwayVR01Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector01_macro']/@ref">HighwayVR02Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway03Sector01_macro']/@ref">HighwayVR03Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway04Sector01_macro']/@ref">HighwayVR04Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway05Sector01_macro']/@ref">HighwayVR05Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway06Sector01_macro']/@ref">HighwayVR06Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway07Sector01_macro']/@ref">HighwayVR07Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway08Sector01_macro']/@ref">HighwayVR08Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway09Sector01_macro']/@ref">HighwayVR09Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway10Sector01_macro']/@ref">HighwayVR10Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway11Sector01_macro']/@ref">HighwayVR11Sector01_macro</replace>
+  <replace sel="//macro[@ref='Highway12Sector01_macro']/@ref">HighwayVR12Sector01_macro</replace>
+  <!--
+  <replace sel="//macro[@name='Cluster_A_Sector02_macro']/@name">Cluster_VR_A_Sector02_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector02_Zone104_macro']/@ref">tzoneCluster_VR_A_Sector02_Zone104_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector02_Zone105_macro']/@ref">tzoneCluster_VR_A_Sector02_Zone105_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector02_Zone106_macro']/@ref">tzoneCluster_VR_A_Sector02_Zone106_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector02_Zone107_macro']/@ref">tzoneCluster_VR_A_Sector02_Zone107_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector02SHCon7_GateZone_macro']/@ref">tzoneCluster_VR_A_Sector02SHCon7_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector02SHCon8_GateZone_macro']/@ref">tzoneCluster_VR_A_Sector02SHCon8_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector02SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_A_Sector02SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector02SHCon12_GateZone_macro']/@ref">tzoneCluster_VR_A_Sector02SHCon12_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway01Sector02_macro']/@ref">HighwayVR01Sector02_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector02_macro']/@ref">HighwayVR02Sector02_macro</replace>
+  <replace sel="//macro[@ref='Highway03Sector02_macro']/@ref">HighwayVR03Sector02_macro</replace>
+  <replace sel="//macro[@ref='Highway04Sector02_macro']/@ref">HighwayVR04Sector02_macro</replace>
+  <replace sel="//macro[@ref='Highway05Sector02_macro']/@ref">HighwayVR05Sector02_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_A_Sector03_macro']/@name">Cluster_VR_A_Sector03_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector03_Zone109_macro']/@ref">tzoneCluster_VR_A_Sector03_Zone109_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector03_Zone110_macro']/@ref">tzoneCluster_VR_A_Sector03_Zone110_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector03_Zone111_macro']/@ref">tzoneCluster_VR_A_Sector03_Zone111_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector03_Zone112_macro']/@ref">tzoneCluster_VR_A_Sector03_Zone112_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector03_Zone113_macro']/@ref">tzoneCluster_VR_A_Sector03_Zone113_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector03_Zone114_macro']/@ref">tzoneCluster_VR_A_Sector03_Zone114_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector03SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_A_Sector03SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_A_Sector03SHCon12_GateZone_macro']/@ref">tzoneCluster_VR_A_Sector03SHCon12_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway01Sector03_macro']/@ref">HighwayVR01Sector03_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector03_macro']/@ref">HighwayVR02Sector03_macro</replace>
+  <replace sel="//macro[@ref='Highway03Sector03_macro']/@ref">HighwayVR03Sector03_macro</replace>
+  <replace sel="//macro[@ref='Highway04Sector03_macro']/@ref">HighwayVR04Sector03_macro</replace>
+  <replace sel="//macro[@ref='Highway05Sector03_macro']/@ref">HighwayVR05Sector03_macro</replace>
+  <replace sel="//macro[@ref='Highway06Sector03_macro']/@ref">HighwayVR06Sector03_macro</replace>
+  
+  -->
+  <!-- Cluster B --><!--
+  <replace sel="//macro[@name='Cluster_B_Sector04_macro']/@name">Cluster_VR_B_Sector04_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector04_Zone27_macro']/@ref">tzoneCluster_VR_B_Sector04_Zone27_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector04_Zone28_macro']/@ref">tzoneCluster_VR_B_Sector04_Zone28_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector04_Zone29_macro']/@ref">tzoneCluster_VR_B_Sector04_Zone29_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector04_Zone30_macro']/@ref">tzoneCluster_VR_B_Sector04_Zone30_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector04_Zone31_macro']/@ref">tzoneCluster_VR_B_Sector04_Zone31_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector04_Zone32_macro']/@ref">tzoneCluster_VR_B_Sector04_Zone32_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector04_Zone32b_macro']/@ref">tzoneCluster_VR_B_Sector04_Zone32b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector04_Zone33_macro']/@ref">tzoneCluster_VR_B_Sector04_Zone33_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector04SHCon7_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector04SHCon7_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector04SHCon8_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector04SHCon8_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway06Sector04_macro']/@ref">HighwayVR06Sector04_macro</replace>
+  <replace sel="//macro[@ref='Highway07Sector04_macro']/@ref">HighwayVR07Sector04_macro</replace>
+  <replace sel="//macro[@ref='Highway08Sector04_macro']/@ref">HighwayVR08Sector04_macro</replace>
+  <replace sel="//macro[@ref='Highway09Sector04_macro']/@ref">HighwayVR09Sector04_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_B_Sector05_macro']/@name">Cluster_VR_B_Sector05_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05_Zone19_macro']/@ref">tzoneCluster_VR_B_Sector05_Zone19_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05_Zone19b_macro']/@ref">tzoneCluster_VR_B_Sector05_Zone19b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05_Zone20_macro']/@ref">tzoneCluster_VR_B_Sector05_Zone20_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05_Zone21_macro']/@ref">tzoneCluster_VR_B_Sector05_Zone21_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05_Zone22_macro']/@ref">tzoneCluster_VR_B_Sector05_Zone22_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05_Zone22b_macro']/@ref">tzoneCluster_VR_B_Sector05_Zone22b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05_Zone23_macro']/@ref">tzoneCluster_VR_B_Sector05_Zone23_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05_Zone24_macro']/@ref">tzoneCluster_VR_B_Sector05_Zone24_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05_Zone25_macro']/@ref">tzoneCluster_VR_B_Sector05_Zone25_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05_Zone26_macro']/@ref">tzoneCluster_VR_B_Sector05_Zone26_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector05SHCon5_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector05SHCon6_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05SHCon9_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector05SHCon9_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector05SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector05SHCon10_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway01Sector05_macro']/@ref">HighwayVR01Sector05_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector05_macro']/@ref">HighwayVR02Sector05_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_B_Sector06_macro']/@name">Cluster_VR_B_Sector06_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06_Zone11_macro']/@ref">tzoneCluster_VR_B_Sector06_Zone11_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06_Zone11b_macro']/@ref">tzoneCluster_VR_B_Sector06_Zone11b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06_Zone12_macro']/@ref">tzoneCluster_VR_B_Sector06_Zone12_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06_Zone13_macro']/@ref">tzoneCluster_VR_B_Sector06_Zone13_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06_Zone14_macro']/@ref">tzoneCluster_VR_B_Sector06_Zone14_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06_Zone15_macro']/@ref">tzoneCluster_VR_B_Sector06_Zone15_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06_Zone16_macro']/@ref">tzoneCluster_VR_B_Sector06_Zone16_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06_Zone17_macro']/@ref">tzoneCluster_VR_B_Sector06_Zone17_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06_Zone18_macro']/@ref">tzoneCluster_VR_B_Sector06_Zone18_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector06SHCon5_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector06SHCon6_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06SHCon9_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector06SHCon9_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector06SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector06SHCon10_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway01Sector06_macro']/@ref">HighwayVR01Sector06_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector06_macro']/@ref">HighwayVR02Sector06_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_B_Sector07_macro']/@name">Cluster_VR_B_Sector07_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone01_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone01_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone02_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone02_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone03_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone03_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone04_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone04_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone05_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone05_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone05b_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone05b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone06_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone06_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone07_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone07_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone08_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone08_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone09_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone09_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone09b_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone09b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07_Zone10_macro']/@ref">tzoneCluster_VR_B_Sector07_Zone10_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector07SHCon6_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_B_Sector07SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_B_Sector07SHCon10_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway08Sector07_macro']/@ref">HighwayVR08Sector07_macro</replace>
+  <replace sel="//macro[@ref='Highway09Sector07_macro']/@ref">HighwayVR09Sector07_macro</replace>
+  <replace sel="//macro[@ref='Highway10Sector07_macro']/@ref">HighwayVR10Sector07_macro</replace>
+  <replace sel="//macro[@ref='Highway12Sector07_macro']/@ref">HighwayVR12Sector07_macro</replace>
+  -->
+  
+  <!-- Cluster C --><!--
+  <replace sel="//macro[@name='Cluster_C_Sector08_macro']/@name">Cluster_VR_C_Sector08_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone87_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone87_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone88_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone88_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone89_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone89_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone90_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone90_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone90_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone90_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone91_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone91_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone92b_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone92b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone93_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone93_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector08SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector08SHCon5_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector08SHCon9_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector08SHCon9_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway01Sector08_macro']/@ref">HighwayVR01Sector08_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector08_macro']/@ref">HighwayVR02Sector08_macro</replace>
+
+  <replace sel="//macro[@name='Cluster_C_Sector09_macro']/@name">Cluster_VR_C_Sector09_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09_Zone59_macro']/@ref">tzoneCluster_VR_C_Sector09_Zone59_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09_Zone60_macro']/@ref">tzoneCluster_VR_C_Sector09_Zone60_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09_Zone60b_macro']/@ref">tzoneCluster_VR_C_Sector09_Zone60b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09_Zone61_macro']/@ref">tzoneCluster_VR_C_Sector09_Zone61_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09_Zone62_macro']/@ref">tzoneCluster_VR_C_Sector09_Zone62_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09_Zone63_macro']/@ref">tzoneCluster_VR_C_Sector09_Zone63_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09_Zone64_macro']/@ref">tzoneCluster_VR_C_Sector09_Zone64_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09_Zone65_macro']/@ref">tzoneCluster_VR_C_Sector09_Zone65_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09SHCon1_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector09SHCon1_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector09SHCon6_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09SHCon7_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector09SHCon7_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector09SHCon10_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector09SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector09SHCon12_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector09SHCon12_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway01Sector09_macro']/@ref">HighwayVR01Sector09_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector09_macro']/@ref">HighwayVR02Sector09_macro</replace>
+  <replace sel="//macro[@ref='Highway03Sector09_macro']/@ref">HighwayVR03Sector09_macro</replace>
+  <replace sel="//macro[@ref='Highway04Sector09_macro']/@ref">HighwayVR04Sector09_macro</replace>
+  <replace sel="//macro[@ref='Highway05Sector09_macro']/@ref">HighwayVR05Sector09_macro</replace>
+  <replace sel="//macro[@ref='Highway06Sector09_macro']/@ref">HighwayVR06Sector09_macro</replace>
+  <replace sel="//macro[@ref='Highway07Sector09_macro']/@ref">HighwayVR07Sector09_macro</replace>
+  <replace sel="//macro[@ref='Highway08Sector09_macro']/@ref">HighwayVR08Sector09_macro</replace>
+  <replace sel="//macro[@ref='Highway09Sector09_macro']/@ref">HighwayVR09Sector09_macro</replace>
+
+  <replace sel="//macro[@name='Cluster_C_Sector10_macro']/@name">Cluster_VR_C_Sector10_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10_Zone66_macro']/@ref">tzoneCluster_VR_C_Sector10_Zone66_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10_Zone67_macro']/@ref">tzoneCluster_VR_C_Sector10_Zone67_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10_Zone68_macro']/@ref">tzoneCluster_VR_C_Sector10_Zone68_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10_Zone69_macro']/@ref">tzoneCluster_VR_C_Sector10_Zone69_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10_Zone70_macro']/@ref">tzoneCluster_VR_C_Sector10_Zone70_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10_Zone71_macro']/@ref">tzoneCluster_VR_C_Sector10_Zone71_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10_Zone72_macro']/@ref">tzoneCluster_VR_C_Sector10_Zone72_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10_Zone73_macro']/@ref">tzoneCluster_VR_C_Sector10_Zone73_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10_Zone74_macro']/@ref">tzoneCluster_VR_C_Sector10_Zone74_macro</replace>>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10SHCon3_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector10SHCon3_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector10SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector10SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector10_macro']/@ref">HighwayVR02Sector10_macro</replace>
+  <replace sel="//macro[@ref='Highway04Sector10_macro']/@ref">HighwayVR04Sector10_macro</replace>
+  <replace sel="//macro[@ref='Highway06Sector10_macro']/@ref">HighwayVR06Sector10_macro</replace>
+  <replace sel="//macro[@ref='Highway11Sector10_macro']/@ref">HighwayVR11Sector10_macro</replace>
+ 
+  <replace sel="//macro[@name='Cluster_C_Sector11_macro']/@name">Cluster_VR_C_Sector11_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone75_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone75_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone76_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone76_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone77_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone77_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone78_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone87_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone79_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone79_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone80_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone80_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone81_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone81_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone82_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone82_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector11SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11SHCon12_GateZone_macro']/@ref">tzoneCluster_VR_C_Sector11SHCon12_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway01Sector11_macro']/@ref">HighwayVR01Sector11_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector11_macro']/@ref">HighwayVR02Sector11_macro</replace>
+  <replace sel="//macro[@ref='Highway03Sector11_macro']/@ref">HighwayVR03Sector11_macro</replace>
+  <replace sel="//macro[@ref='Highway04Sector11_macro']/@ref">HighwayVR04Sector11_macro</replace>
+  <replace sel="//macro[@ref='Highway05Sector11_macro']/@ref">HighwayVR05Sector11_macro</replace>
+  <replace sel="//macro[@ref='Highway06Sector11_macro']/@ref">HighwayVR06Sector11_macro</replace>-->
+
+
+  <!-- Cluster D -->
+  <replace sel="//macro[@name='Cluster_D_Sector17_macro']/@name">Cluster_VR_D_Sector17_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector17_Zone34_macro']/@ref">tzoneCluster_VR_D_Sector17_Zone34_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector17_Zone35_macro']/@ref">tzoneCluster_VR_D_Sector17_Zone35_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector17_Zone36_macro']/@ref">tzoneCluster_VR_D_Sector17_Zone36_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector17_Zone37_macro']/@ref">tzoneCluster_VR_D_Sector17_Zone37_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector17_Zone38_macro']/@ref">tzoneCluster_VR_D_Sector17_Zone38_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector17_Zone39_macro']/@ref">tzoneCluster_VR_D_Sector17_Zone39_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector17SHCon3_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector17SHCon3_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector17SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector17SHCon5_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector17SHCon9_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector17SHCon9_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector17_macro']/@ref">HighwayVR02Sector17_macro</replace>
+  <replace sel="//macro[@ref='Highway04Sector17_macro']/@ref">HighwayVR04Sector17_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_D_Sector18_macro']/@name">Cluster_VR_D_Sector18_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone45_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone45_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone46_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone46_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone47_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone47_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone48_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone48_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone49_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone49_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone50_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone50_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone51_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone51_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone52_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone52_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone53_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone53_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18SHCon4_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector18SHCon4_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector18SHCon5_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector18SHCon6_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector18SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector18SHCon10_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway01Sector18_macro']/@ref">HighwayVR01Sector18_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector18_macro']/@ref">HighwayVR02Sector18_macro</replace>
+  <replace sel="//macro[@ref='Highway03Sector18_macro']/@ref">HighwayVR03Sector18_macro</replace>
+  <replace sel="//macro[@ref='Highway04Sector18_macro']/@ref">HighwayVR04Sector18_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_D_Sector19_macro']/@name">Cluster_VR_D_Sector19_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector19_Zone40_macro']/@ref">tzoneCluster_VR_D_Sector19_Zone40_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector19_Zone41_macro']/@ref">tzoneCluster_VR_D_Sector19_Zone41_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector19_Zone42_macro']/@ref">tzoneCluster_VR_D_Sector19_Zone42_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector19_Zone43_macro']/@ref">tzoneCluster_VR_D_Sector19_Zone43_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector19_Zone44_macro']/@ref">tzoneCluster_VR_D_Sector19_Zone44_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector19SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector19SHCon5_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector19SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector19SHCon6_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector19SHCon9_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector19SHCon9_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector19SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector19SHCon10_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector19SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector19SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway01Sector19_macro']/@ref">HighwayVR01Sector19_macro</replace>
+  <replace sel="//macro[@ref='Highway02Sector19_macro']/@ref">HighwayVR02Sector19_macro</replace>
+  <replace sel="//macro[@ref='Highway03Sector19_macro']/@ref">HighwayVR03Sector19_macro</replace>
+  <replace sel="//macro[@ref='Highway04Sector19_macro']/@ref">HighwayVR04Sector19_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_D_Sector20_macro']/@name">Cluster_VR_D_Sector20_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector20_Zone54_macro']/@ref">tzoneCluster_VR_D_Sector20_Zone54_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector20_Zone55_macro']/@ref">tzoneCluster_VR_D_Sector20_Zone55_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector20_Zone56_macro']/@ref">tzoneCluster_VR_D_Sector20_Zone56_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector20_Zone57_macro']/@ref">tzoneCluster_VR_D_Sector20_Zone57_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector20_Zone58_macro']/@ref">tzoneCluster_VR_D_Sector20_Zone58_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector20SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector20SHCon5_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector20SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector20SHCon6_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_D_Sector20SHCon7_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector20SHCon7_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Highway06Sector20_macro']/@ref">HighwayVR06Sector20_macro</replace>
+  
+  
+  <!-- Cluster T -->
+  <replace sel="//macro[@name='Cluster_T_Sector01_macro']/@name">Cluster_VR_T_Sector01_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone001_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone001_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone002_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone002_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone003_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone003_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone004_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone004_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone005_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone005_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone006_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone006_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone007_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone007_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone009_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone009_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone010_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone010_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone011_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone011_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01_Zone012_macro']/@ref">tzoneCluster_VR_T_Sector01_Zone012_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01SHCon7_GateZone_macro']/@ref">tzoneCluster_VR_T_Sector01SHCon7_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector01SHCon8_GateZone_macro']/@ref">tzoneCluster_VR_T_Sector01SHCon8_GateZone_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_T_Sector02_macro']/@name">Cluster_VR_T_Sector02_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector02_Zone001_macro']/@ref">tzoneCluster_VR_T_Sector02_Zone001_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector02_Zone002_macro']/@ref">tzoneCluster_VR_T_Sector02_Zone002_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector02_Zone003_macro']/@ref">tzoneCluster_VR_T_Sector02_Zone003_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector02_Zone004_macro']/@ref">tzoneCluster_VR_T_Sector02_Zone004_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector02_Zone005_macro']/@ref">tzoneCluster_VR_T_Sector02_Zone005_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector02_Zone006_macro']/@ref">tzoneCluster_VR_T_Sector02_Zone006_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector02SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_T_Sector02SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_T_Sector02SHCon12_GateZone_macro']/@ref">tzoneCluster_VR_T_Sector02SHCon12_GateZone_macro</replace>
+  <replace sel="//macro[@ref='cluster_t_zonehighway01Sector02_macro']/@ref">cluster_vr_t_zonehighway01Sector02_macro</replace>
+  <replace sel="//macro[@ref='cluster_t_zonehighway02Sector02_macro']/@ref">cluster_vr_t_zonehighway01Sector02_macro</replace>
+  
+  <!--   <replace sel="//macro[@name='Cluster_T_Sector03_macro']/@name">Cluster_VR_T_Sector03_macro</replace> Note: check where i got this one from....-->
+  
+  
+  <!-- Cluster L -->
+  <replace sel="//macro[@name='Cluster_L_Sector01_macro']/@name">Cluster_VR_L_Sector01_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector01_Zone001_macro']/@ref">tzoneCluster_VR_L_Sector01_Zone001_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector01_Zone002_macro']/@ref">tzoneCluster_VR_L_Sector01_Zone002_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector01_Zone003_macro']/@ref">tzoneCluster_VR_L_Sector01_Zone003_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector01_Zone004_macro']/@ref">tzoneCluster_VR_L_Sector01_Zone004_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector01SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector01SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector01SHCon12_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector01SHCon12_GateZone_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_L_Sector02_macro']/@name">Cluster_VR_L_Sector02_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02_Zone001_macro']/@ref">tzoneCluster_VR_L_Sector02_Zone001_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02_Zone002_macro']/@ref">tzoneCluster_VR_L_Sector02_Zone002_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02_Zone003_macro']/@ref">tzoneCluster_VR_L_Sector02_Zone003_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02_Zone004_macro']/@ref">tzoneCluster_VR_L_Sector02_Zone004_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02_Zone005_macro']/@ref">tzoneCluster_VR_L_Sector02_Zone005_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02_Zone006_macro']/@ref">tzoneCluster_VR_L_Sector02_Zone006_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector02SHCon5GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector02SHCon6GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02SHCon9_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector02SHCon9_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector02SHCon10_GateZone_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_L_Sector03_macro']/@name">Cluster_VR_L_Sector03_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector03_Zone001_macro']/@ref">tzoneCluster_VR_L_Sector03_Zone001_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector03_Zone002_macro']/@ref">tzoneCluster_VR_L_Sector03_Zone002_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector03_Zone003_macro']/@ref">tzoneCluster_VR_L_Sector03_Zone003_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector03_Zone004_macro']/@ref">tzoneCluster_VR_L_Sector03_Zone004_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector03_Zone005_macro']/@ref">tzoneCluster_VR_L_Sector03_Zone005_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector03SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector03SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector03SHCon12_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector03SHCon12_GateZone_macro</replace>
+  
+  
+  <!-- Cluster M -->
+  <replace sel="//macro[@name='Cluster_M_Sector01_macro']/@name">Cluster_VR_M_Sector01_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone001_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone001_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone001b_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone001b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone002_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone002_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone003_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone003_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone004_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone004_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone005_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone005_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone006_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone006_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone007_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone007_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone008_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone008_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone009_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone009_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone010_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone010_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone011_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone011_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01_Zone012_macro']/@ref">tzoneCluster_VR_M_Sector01_Zone012_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01SHCon7_GateZone_macro']/@ref">tzoneCluster_VR_M_Sector01SHCon7_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector01SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_M_Sector01SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Cluster_M_Highway01_sector01_macro']/@ref">Cluster_VR_M_Highway01_sector01_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_M_Sector02_macro']/@name">Cluster_VR_M_Sector02_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector02_Zone001_macro']/@ref">tzoneCluster_VR_M_Sector02_Zone001_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector02_Zone002_macro']/@ref">tzoneCluster_VR_M_Sector02_Zone002_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector02_Zone003_macro']/@ref">tzoneCluster_VR_M_Sector02_Zone003_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector02_Zone004_macro']/@ref">tzoneCluster_VR_M_Sector02_Zone004_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector02_Zone005_macro']/@ref">tzoneCluster_VR_M_Sector02_Zone005_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector02_Zone006_macro']/@ref">tzoneCluster_VR_M_Sector02_Zone006_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector02_Zone007_macro']/@ref">tzoneCluster_VR_M_Sector02_Zone007_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector02SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_M_Sector02SHCon5_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector02SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_M_Sector02SHCon6_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Cluster_M_Highway01_sector02_macro']/@ref">Cluster_VR_M_Highway01_sector02_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_M_Sector03_macro']/@name">Cluster_VR_M_Sector03_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector03_Zone001_macro']/@ref">tzoneCluster_VR_M_Sector03_Zone001_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector03_Zone002_macro']/@ref">tzoneCluster_VR_M_Sector03_Zone002_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector03_Zone003_macro']/@ref">tzoneCluster_VR_M_Sector03_Zone003_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector03_Zone004_macro']/@ref">tzoneCluster_VR_M_Sector03_Zone004_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector03_Zone004b_macro']/@ref">tzoneCluster_VR_M_Sector03_Zone004b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector03_Zone005_macro']/@ref">tzoneCluster_VR_M_Sector03_Zone005_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector03_Zone006_macro']/@ref">tzoneCluster_VR_M_Sector03_Zone006_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector03_Zone007_macro']/@ref">tzoneCluster_VR_M_Sector03_Zone007_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector03SHCon7_GateZone_macro']/@ref">tzoneCluster_VR_M_Sector03SHCon7_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector03SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_M_Sector03SHCon11_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Cluster_M_Highway01_sector03_macro']/@ref">Cluster_VR_M_Highway01_sector03_macro</replace>
+  
+  <replace sel="//macro[@name='Cluster_M_Sector04_macro']/@name">Cluster_VR_M_Sector04_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector04_Zone001_macro']/@ref">tzoneCluster_VR_M_Sector04_Zone001_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector04_Zone002_macro']/@ref">tzoneCluster_VR_M_Sector04_Zone002_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector04_Zone003_macro']/@ref">tzoneCluster_VR_M_Sector04_Zone003_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector04_Zone004_macro']/@ref">tzoneCluster_VR_M_Sector04_Zone004_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector04_Zone005_macro']/@ref">tzoneCluster_VR_M_Sector04_Zone005_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector04_Zone006_macro']/@ref">tzoneCluster_VR_M_Sector04_Zone006_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector04_Zone007_macro']/@ref">tzoneCluster_VR_M_Sector04_Zone007_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector04SHCon9_GateZone_macro']/@ref">tzoneCluster_VR_M_Sector04SHCon9_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_M_Sector04SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_M_Sector04SHCon10_GateZone_macro</replace>
+  <replace sel="//macro[@ref='Cluster_M_Highway01_sector04_macro']/@ref">Cluster_VR_M_Highway01_sector04_macro</replace>
+  
+  
+  <!-- Cluster N -->
+  <replace sel="//macro[@name='Cluster_N_Sector01_macro']/@name">Cluster_VR_N_Sector01_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone001_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone001_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone002_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone002_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone003_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone003_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone004_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone004_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone005_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone005_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone006_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone006_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone007_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone007_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone008_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone008_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone008b_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone008b_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone009_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone009_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone010_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone010_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone011_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone011_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone012_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone012_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone013_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone013_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone014_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone014_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone015_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone015_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone016_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone016_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone017_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone017_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone018_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone018_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone019_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone019_macro</replace>
+  
+</diff>
