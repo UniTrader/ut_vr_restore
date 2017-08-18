@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<diff>
 <add sel="/macros/connections">
 
       <connection name="Cluster_VR_A_connection" ref="clusters">
@@ -81,3 +82,4 @@
         <macro connection="destination" path="../../../../../Cluster_VR_C_connection/Cluster_C_Sector10_connection/tzoneCluster_C_Sector10_Zone66_connection/clustergate_connection5838" />
       </connection>
 </add>
+</diff>
