@@ -32,7 +32,7 @@
 	<entry name="cluster_n_highway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\dlc_2_zonehighways"/>
 	<entry name="cluster_n_superhighway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\dlc_2_sechighways"/>
 	<entry name="cluster_l_highway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\dlc_2_zonehighways"/>
-	<entry name="cluster_l_superhighway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\sdlc_2_echighways"/>
+	<entry name="cluster_l_superhighway*" value="extensions\ego_dlc_2\maps\xu_ep1_universe\dlc_2_sechighways"/>
 	<entry name="superhighway*" value="maps\xu_ep1_universe\sechighways"/>
 	<entry name="cluster_a_sector*" value="maps\xu_ep1_universe\sectors"/>
 	<entry name="cluster_b_sector*" value="maps\xu_ep1_universe\sectors"/>
