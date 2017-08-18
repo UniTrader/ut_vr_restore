@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add sel="/macros/connections">
+
+      <connection name="Cluster_VR_A_connection" ref="clusters">
+        <offset>
+          <position x="8000000000" y="0" z="-1000000000" />
+        </offset>
+        <macro ref="Cluster_VR_A_macro" connection="galaxy" />
+      </connection>
+      <connection name="cluster_VR_B_connection" ref="clusters">
+        <offset>
+          <position x="10000000000" y="0" z="-1000000000" />
+        </offset>
+        <macro ref="cluster_VR_B_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_VR_C_connection" ref="clusters">
+        <offset>
+          <position x="8000000000" y="0" z="1000000000" />
+        </offset>
+        <macro ref="Cluster_VR_C_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_VR_D_connection" ref="clusters">
+        <offset>
+          <position x="10000000000" y="0" z="1000000000" />
+        </offset>
+        <macro ref="Cluster_VR_D_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_VR_T_connection" ref="clusters">
+        <offset>
+          <position x="9000000000" y="0" z="-1000000000" />
+        </offset>
+        <macro ref="Cluster_VR_T_macro" connection="galaxy" />
+      </connection>
+        <connection name="Cluster_VR_L_connection" ref="clusters">
+          <offset>
+            <position x="9000000000" y="0" z="-3000000000" />
+          </offset>
+          <macro ref="Cluster_VR_L_macro" connection="galaxy" />
+        </connection>
+        <connection name="Cluster_VR_M_connection" ref="clusters">
+          <offset>
+            <position x="7000000000" y="0" z="-4000000000" />
+          </offset>
+          <macro ref="Cluster_VR_M_macro" connection="galaxy" />
+        </connection>
+        <connection name="Cluster_VR_N_connection" ref="clusters">
+          <offset>
+            <position x="5000000000" y="0" z="-3000000000" />
+          </offset>
+          <macro ref="Cluster_VR_N_macro" connection="galaxy" /> 
+        </connection>
+        <connection name="ClusterGateVRET04" ref="destination" path="../Cluster_VR_L_connection/Cluster_L_Sector02_connection/tzoneCluster_L_Sector02_Zone001_connection/connection_ClusterGate002">
+          <macro connection="destination" path="../../../../../cluster_VR_B_connection/Cluster_B_Sector06_connection/tzoneCluster_B_Sector06_Zone15_connection/clustergate_connection778" />
+        </connection>
+        <connection name="ClusterGateVRET05" ref="destination" path="../Cluster_VR_N_connection/Cluster_N_Sector01_connection/tzoneCluster_N_Sector01_Zone005_connection/connection_ClusterGate002">
+          <macro connection="destination" path="../../../../../cluster_VR_A_connection/Cluster_A_Sector01_connection/tzoneCluster_A_Sector01_Zone99_connection/clustergate_connection7476" />
+        </connection>
+        <connection name="ClusterGateVRET06" ref="destination" path="../Cluster_VR_L_connection/Cluster_L_Sector02_connection/tzoneCluster_L_Sector02_Zone001_connection/connection_ClusterGate001">
+          <macro connection="destination" path="../../../../../cluster_VR_M_connection/Cluster_M_Sector01_connection/tzoneCluster_M_Sector01_Zone001_connection/connection_ClusterGate001" />
+        </connection>
+        <connection name="ClusterGateVRET07" ref="destination" path="../Cluster_VR_M_connection/Cluster_M_Sector02_connection/tzoneCluster_M_Sector02_Zone003_connection/connection_ClusterGate001">
+          <macro connection="destination" path="../../../../../cluster_VR_N_connection/Cluster_N_Sector01_connection/tzoneCluster_N_Sector01_Zone001_connection/connection_ClusterGate001" />
+        </connection>
+        <connection name="ClusterGateVRET08" ref="destination" path="../Cluster_VR_N_connection/Cluster_N_Sector01_connection/tzoneCluster_N_Sector01_Zone006_connection/connection_ClusterGate003">
+          <macro connection="destination" path="../../../../../cluster_VR_L_connection/Cluster_L_Sector01_connection/tzoneCluster_L_Sector01_Zone002_connection/connection_ClusterGate001" />
+        </connection>
+
+      <connection name="ClusterGateVR04" ref="destination" path="../Cluster_VR_T_connection/Cluster_T_Sector01_connection/Cluster_T_Sector01_Zone001_connection/props_gates_anc_gate_macro">
+        <macro connection="destination" path="../../../../../cluster_VR_B_connection/Cluster_B_Sector04_connection/tzoneCluster_B_Sector04_Zone29_connection/clustergate_connection777" />
+      </connection>
+      <connection name="ClusterGateVR05" ref="destination" path="../Cluster_VR_T_connection/Cluster_T_Sector02_connection/Cluster_T_Sector02_Zone002_connection/props_gates_anc_gate_macro">
+        <macro connection="destination" path="../../../../../cluster_VR_C_connection/Cluster_C_Sector10_connection/tzoneCluster_C_Sector10_Zone74_connection/clustergate_connection177" />
+      </connection>
+      <connection name="ClusterGateVR01" ref="destination" path="../Cluster_VR_C_connection/Cluster_C_Sector08_connection/tzoneCluster_C_Sector08_Zone88_connection/clustergate_connection3552">
+        <macro connection="destination" path="../../../../../Cluster_VR_A_connection/Cluster_A_Sector01_connection/tzoneCluster_A_Sector01_Zone94_connection/clustergate_connection7474" />
+      </connection>
+      <connection name="ClusterGateVR01" ref="destination" path="../Cluster_VR_D_connection/Cluster_D_Sector17_connection/tzoneCluster_D_Sector17_Zone34_connection/clustergate_connection6319">
+        <macro connection="destination" path="../../../../../cluster_VR_B_connection/Cluster_B_Sector07_connection/tzoneCluster_B_Sector07_Zone05_connection/clustergate_connection6688" />
+      </connection>
+      <connection name="ClusterGateVR01" ref="destination" path="../Cluster_VR_D_connection/Cluster_D_Sector20_connection/tzoneCluster_D_Sector20_Zone54_connection/clustergate_connection7914">
+        <macro connection="destination" path="../../../../../Cluster_VR_C_connection/Cluster_C_Sector10_connection/tzoneCluster_C_Sector10_Zone66_connection/clustergate_connection5838" />
+      </connection>
+</add>
