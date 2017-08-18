@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-<add sel="/macros/connections">
+<add sel="/macros/macro/connections">
 
       <connection name="Cluster_VR_A_connection" ref="clusters">
         <offset>
