@@ -44,4 +44,51 @@
 	<entry name="tzonecluster*" value="maps\xu_ep1_universe\zones"/>
 	<entry name="shcon*" value="maps\xu_ep1_universe\zones"/>
 	<entry name="highway*" value="maps\xu_ep1_universe\zonehighways"/>
+	
+	
+	<entry name="xu_ep1_vr_universe_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\galaxy"/>
+	<entry name="cluster_vr_a_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_b_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_c_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_d_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_e_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_f_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_t_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_t_Sector01_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_t_Sector02_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_t_Sector01_Zone*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_t_Sector02_Zone*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zones"/>
+	<entry name="cluster_vr_t_zonehighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zonehighways"/>
+	<entry name="cluster_vr_t_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_m_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\clusters"/>
+	<entry name="cluster_vr_m_sector01_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_m_sector02_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_m_sector03_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_m_sector04_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_n_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\clusters"/>
+	<entry name="cluster_vr_n_sector01_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_l_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\clusters"/>
+	<entry name="cluster_vr_l_sector01_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_l_sector02_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_l_sector03_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="tzonecluster_vr_m_*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zones"/>
+	<entry name="tzonecluster_vr_n_*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zones"/>
+	<entry name="tzonecluster_vr_l_*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zones"/>
+	<entry name="cluster_vr_m_highway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zonehighways"/>
+	<entry name="cluster_vr_m_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_n_highway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zonehighways"/>
+	<entry name="cluster_vr_n_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_l_highway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zonehighways"/>
+	<entry name="cluster_vr_l_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="superhighwayvr*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_a_sector*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_b_sector*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_c_sector*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_d_sector*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_e_sector*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_f_sector*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
+	<entry name="cluster_vr_*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\clusters"/>
+	<entry name="tzonecluster_vr_*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zones"/>
+	<entry name="shcon*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zones"/>
+	<entry name="highwayvr*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zonehighways"/>
 </index>
