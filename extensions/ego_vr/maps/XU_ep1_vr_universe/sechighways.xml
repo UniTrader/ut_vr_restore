@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <replace sel="//macro[@name='Highway01Sector01_macro']/@name">HighwayVR01Sector01_macro</replace>
+  <replace sel="//macro[@name='Cluster_A_SuperHighway01_macro']/@name">Cluster_VR_A_SuperHighway01_macro</replace>
+  <replace sel="//macro[@name='Cluster_A_SuperHighway02_macro']/@name">Cluster_VR_A_SuperHighway02_macro</replace>
+  <replace sel="//macro[@name='Cluster_A_SuperHighway04_macro']/@name">Cluster_VR_A_SuperHighway04_macro</replace>
+  <replace sel="//macro[@name='Cluster_A_SuperHighway03_macro']/@name">Cluster_VR_A_SuperHighway03_macro</replace>
+  <replace sel="//macro[@name='Cluster_B_SuperHighway01_macro']/@name">Cluster_VR_B_SuperHighway01_macro</replace>
+  <replace sel="//macro[@name='Cluster_B_SuperHighway02_macro']/@name">Cluster_VR_B_SuperHighway02_macro</replace>
+  <replace sel="//macro[@name='Cluster_B_SuperHighway03_macro']/@name">Cluster_VR_B_SuperHighway03_macro</replace>
+  <replace sel="//macro[@name='Cluster_B_SuperHighway04_macro']/@name">Cluster_VR_B_SuperHighway04_macro</replace>
+  <replace sel="//macro[@name='Cluster_B_SuperHighway05_macro']/@name">Cluster_VR_B_SuperHighway05_macro</replace>
+  <replace sel="//macro[@name='Cluster_B_SuperHighway06_macro']/@name">Cluster_VR_B_SuperHighway06_macro</replace>
+  <replace sel="//macro[@name='Cluster_C_SuperHighway01_macro']/@name">Cluster_VR_C_SuperHighway01_macro</replace>
+  <replace sel="//macro[@name='Cluster_C_SuperHighway02_macro']/@name">Cluster_VR_C_SuperHighway02_macro</replace>
+  <replace sel="//macro[@name='Cluster_C_SuperHighway03_macro']/@name">Cluster_VR_C_SuperHighway03_macro</replace>
+  <replace sel="//macro[@name='Cluster_C_SuperHighway04_macro']/@name">Cluster_VR_C_SuperHighway04_macro</replace>
+  <replace sel="//macro[@name='Cluster_C_SuperHighway05_macro']/@name">Cluster_VR_C_SuperHighway05_macro</replace>
+  <replace sel="//macro[@name='Cluster_C_SuperHighway06_macro']/@name">Cluster_VR_C_SuperHighway06_macro</replace>
+  <replace sel="//macro[@name='SuperHighway01_macro']/@name">SuperHighwayVR01_macro</replace>
+  <replace sel="//macro[@name='SuperHighway02_macro']/@name">SuperHighwayVR02_macro</replace>
+  <replace sel="//macro[@name='SuperHighway03_macro']/@name">SuperHighwayVR03_macro</replace>
+  <replace sel="//macro[@name='SuperHighway04_macro']/@name">SuperHighwayVR04_macro</replace>
+  <replace sel="//macro[@name='SuperHighway05_macro']/@name">SuperHighwayVR05_macro</replace>
+  <replace sel="//macro[@name='SuperHighway06_macro']/@name">SuperHighwayVR06_macro</replace>
+  <replace sel="//macro[@name='SuperHighway07_macro']/@name">SuperHighwayVR07_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_SuperHighway01_macro']/@name">Cluster_VR_T_SuperHighway01_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_SuperHighway02_macro']/@name">Cluster_VR_T_SuperHighway02_macro</replace>
+  <replace sel="//macro[@name='Cluster_L_SuperHighway03_macro']/@name">Cluster_VR_L_SuperHighway03_macro</replace>
+  <replace sel="//macro[@name='Cluster_L_SuperHighway02_macro']/@name">Cluster_VR_L_SuperHighway02_macro</replace>
+  <replace sel="//macro[@name='Cluster_L_SuperHighway01_macro']/@name">Cluster_VR_L_SuperHighway01_macro</replace>
+  <replace sel="//macro[@name='Cluster_L_SuperHighway04_macro']/@name">Cluster_VR_L_SuperHighway04_macro</replace>
+  <replace sel="//macro[@name='Cluster_M_SuperHighway03_macro']/@name">Cluster_VR_M_SuperHighway03_macro</replace>
+  <replace sel="//macro[@name='Cluster_M_SuperHighway02_macro']/@name">Cluster_VR_M_SuperHighway02_macro</replace>
+  <replace sel="//macro[@name='Cluster_M_SuperHighway04_macro']/@name">Cluster_VR_M_SuperHighway04_macro</replace>
+  <replace sel="//macro[@name='Cluster_M_SuperHighway01_macro']/@name">Cluster_VR_M_SuperHighway01_macro</replace>
+</diff>

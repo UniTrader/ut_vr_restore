@@ -26,7 +26,7 @@
   <replace sel="//macro[@ref='Highway10Sector01_macro']/@ref">HighwayVR10Sector01_macro</replace>
   <replace sel="//macro[@ref='Highway11Sector01_macro']/@ref">HighwayVR11Sector01_macro</replace>
   <replace sel="//macro[@ref='Highway12Sector01_macro']/@ref">HighwayVR12Sector01_macro</replace>
-  <!--
+ 
   <replace sel="//macro[@name='Cluster_A_Sector02_macro']/@name">Cluster_VR_A_Sector02_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_A_Sector02_Zone104_macro']/@ref">tzoneCluster_VR_A_Sector02_Zone104_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_A_Sector02_Zone105_macro']/@ref">tzoneCluster_VR_A_Sector02_Zone105_macro</replace>
@@ -58,8 +58,7 @@
   <replace sel="//macro[@ref='Highway05Sector03_macro']/@ref">HighwayVR05Sector03_macro</replace>
   <replace sel="//macro[@ref='Highway06Sector03_macro']/@ref">HighwayVR06Sector03_macro</replace>
   
-  -->
-  <!-- Cluster B --><!--
+  <!-- Cluster B -->
   <replace sel="//macro[@name='Cluster_B_Sector04_macro']/@name">Cluster_VR_B_Sector04_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_B_Sector04_Zone27_macro']/@ref">tzoneCluster_VR_B_Sector04_Zone27_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_B_Sector04_Zone28_macro']/@ref">tzoneCluster_VR_B_Sector04_Zone28_macro</replace>
@@ -130,9 +129,9 @@
   <replace sel="//macro[@ref='Highway09Sector07_macro']/@ref">HighwayVR09Sector07_macro</replace>
   <replace sel="//macro[@ref='Highway10Sector07_macro']/@ref">HighwayVR10Sector07_macro</replace>
   <replace sel="//macro[@ref='Highway12Sector07_macro']/@ref">HighwayVR12Sector07_macro</replace>
-  -->
   
-  <!-- Cluster C --><!--
+  
+  <!-- Cluster C -->
   <replace sel="//macro[@name='Cluster_C_Sector08_macro']/@name">Cluster_VR_C_Sector08_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone87_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone87_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone88_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone88_macro</replace>
@@ -205,7 +204,7 @@
   <replace sel="//macro[@ref='Highway03Sector11_macro']/@ref">HighwayVR03Sector11_macro</replace>
   <replace sel="//macro[@ref='Highway04Sector11_macro']/@ref">HighwayVR04Sector11_macro</replace>
   <replace sel="//macro[@ref='Highway05Sector11_macro']/@ref">HighwayVR05Sector11_macro</replace>
-  <replace sel="//macro[@ref='Highway06Sector11_macro']/@ref">HighwayVR06Sector11_macro</replace>-->
+  <replace sel="//macro[@ref='Highway06Sector11_macro']/@ref">HighwayVR06Sector11_macro</replace>
 
 
   <!-- Cluster D -->
