@@ -6,10 +6,10 @@
 	<entry name="cluster_d_superhighway*" value="maps\xu_ep1_universe\sechighways"/>
 	<entry name="cluster_e_superhighway*" value="maps\xu_ep1_universe\sechighways"/>
 	<entry name="cluster_f_superhighway*" value="maps\xu_ep1_universe\sechighways"/>
-	<entry name="cluster_t_macro" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\dlc1sectors"/>
+	<entry name="cluster_t_macro" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\dlc1clusters"/>
 	<entry name="cluster_t_Sector01_macro" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\dlc1sectors"/>
 	<entry name="cluster_t_Sector02_macro" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\dlc1sectors"/>
-	<entry name="cluster_t_Sector01_Zone*" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\dlc1sectors"/>
+	<entry name="cluster_t_Sector01_Zone*" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\dlc1zones"/>
 	<entry name="cluster_t_Sector02_Zone*" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\dlc1zones"/>
 	<entry name="cluster_t_zonehighway*" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\dlc1zonehighways"/>
 	<entry name="cluster_t_superhighway*" value="extensions\ego_dlc_teladi_outpost\maps\xu_ep1_universe\dlc1sechighways"/>
@@ -53,13 +53,8 @@
 	<entry name="cluster_vr_d_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
 	<entry name="cluster_vr_e_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
 	<entry name="cluster_vr_f_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
-	<entry name="cluster_vr_t_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
-	<entry name="cluster_vr_t_Sector01_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
-	<entry name="cluster_vr_t_Sector02_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
-	<entry name="cluster_vr_t_Sector01_Zone*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
-	<entry name="cluster_vr_t_Sector02_Zone*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zones"/>
-	<entry name="cluster_vr_t_zonehighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zonehighways"/>
-	<entry name="cluster_vr_t_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
+	<entry name="cluster_vr_t_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\clusters"/>
+	<entry name="cluster_vr_t_Sector01_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universesechighways"/>
 	<entry name="cluster_vr_m_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\clusters"/>
 	<entry name="cluster_vr_m_sector01_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
 	<entry name="cluster_vr_m_sector02_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
@@ -89,6 +84,5 @@
 	<entry name="cluster_vr_f_sector*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
 	<entry name="cluster_vr_*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\clusters"/>
 	<entry name="tzonecluster_vr_*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zones"/>
-	<entry name="shcon*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zones"/>
 	<entry name="highwayvr*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\zonehighways"/>
 </index>
