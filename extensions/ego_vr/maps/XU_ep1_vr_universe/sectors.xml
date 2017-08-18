@@ -295,9 +295,7 @@
   <replace sel="//macro[@ref='tzoneCluster_T_Sector02SHCon12_GateZone_macro']/@ref">tzoneCluster_VR_T_Sector02SHCon12_GateZone_macro</replace>
   <replace sel="//macro[@ref='cluster_t_zonehighway01Sector02_macro']/@ref">cluster_vr_t_zonehighway01Sector02_macro</replace>
   <replace sel="//macro[@ref='cluster_t_zonehighway02Sector02_macro']/@ref">cluster_vr_t_zonehighway01Sector02_macro</replace>
-  
-  <!--   <replace sel="//macro[@name='Cluster_T_Sector03_macro']/@name">Cluster_VR_T_Sector03_macro</replace> Note: check where i got this one from....-->
-  
+    
   
   <!-- Cluster L -->
   <replace sel="//macro[@name='Cluster_L_Sector01_macro']/@name">Cluster_VR_L_Sector01_macro</replace>

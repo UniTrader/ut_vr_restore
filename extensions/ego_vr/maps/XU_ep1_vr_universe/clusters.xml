@@ -63,7 +63,6 @@
 <!-- Cluster T Stuff -->
   <replace sel="//macro[@ref='Cluster_T_Sector01_macro']/@ref">Cluster_VR_T_Sector01_macro</replace>
   <replace sel="//macro[@ref='Cluster_T_Sector02_macro']/@ref">Cluster_VR_T_Sector02_macro</replace>
-  <replace sel="//macro[@ref='Cluster_T_Sector03_macro']/@ref">Cluster_VR_T_Sector03_macro</replace>
 <!-- SHW connections-->
   <replace sel="//macro[@ref='Cluster_T_SuperHighway01_macro']/@ref">Cluster_VR_T_SuperHighway01_macro</replace>
   <replace sel="//macro[@ref='Cluster_T_SuperHighway02_macro']/@ref">Cluster_VR_T_SuperHighway02_macro</replace>
