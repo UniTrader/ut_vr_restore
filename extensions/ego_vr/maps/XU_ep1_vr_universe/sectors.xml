@@ -137,7 +137,6 @@
   <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone88_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone88_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone89_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone89_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone90_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone90_macro</replace>
-  <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone90_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone90_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone91_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone91_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone92b_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone92b_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector08_Zone93_macro']/@ref">tzoneCluster_VR_C_Sector08_Zone93_macro</replace>
@@ -232,13 +231,12 @@
   <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone52_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone52_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_D_Sector18_Zone53_macro']/@ref">tzoneCluster_VR_D_Sector18_Zone53_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_D_Sector18SHCon4_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector18SHCon4_GateZone_macro</replace>
-  <replace sel="//macro[@ref='tzoneCluster_D_Sector18SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector18SHCon5_GateZone_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_D_Sector18SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector18SHCon6_GateZone_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_D_Sector18SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector18SHCon10_GateZone_macro</replace>
-  <replace sel="//macro[@ref='Highway01Sector18_macro']/@ref">HighwayVR01Sector18_macro</replace>
-  <replace sel="//macro[@ref='Highway02Sector18_macro']/@ref">HighwayVR02Sector18_macro</replace>
-  <replace sel="//macro[@ref='Highway03Sector18_macro']/@ref">HighwayVR03Sector18_macro</replace>
-  <replace sel="//macro[@ref='Highway04Sector18_macro']/@ref">HighwayVR04Sector18_macro</replace>
+  <replace sel="//macro[@ref='Highway01sector18_macro']/@ref">HighwayVR01sector18_macro</replace>
+  <replace sel="//macro[@ref='Highway02sector18_macro']/@ref">HighwayVR02sector18_macro</replace>
+  <replace sel="//macro[@ref='Highway03sector18_macro']/@ref">HighwayVR03sector18_macro</replace>
+  <replace sel="//macro[@ref='Highway04sector18_macro']/@ref">HighwayVR04sector18_macro</replace>
   
   <replace sel="//macro[@name='Cluster_D_Sector19_macro']/@name">Cluster_VR_D_Sector19_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_D_Sector19_Zone40_macro']/@ref">tzoneCluster_VR_D_Sector19_Zone40_macro</replace>
@@ -251,10 +249,10 @@
   <replace sel="//macro[@ref='tzoneCluster_D_Sector19SHCon9_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector19SHCon9_GateZone_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_D_Sector19SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector19SHCon10_GateZone_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_D_Sector19SHCon11_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector19SHCon11_GateZone_macro</replace>
-  <replace sel="//macro[@ref='Highway01Sector19_macro']/@ref">HighwayVR01Sector19_macro</replace>
-  <replace sel="//macro[@ref='Highway02Sector19_macro']/@ref">HighwayVR02Sector19_macro</replace>
-  <replace sel="//macro[@ref='Highway03Sector19_macro']/@ref">HighwayVR03Sector19_macro</replace>
-  <replace sel="//macro[@ref='Highway04Sector19_macro']/@ref">HighwayVR04Sector19_macro</replace>
+  <replace sel="//macro[@ref='Highway01sector19_macro']/@ref">HighwayVR01sector19_macro</replace>
+  <replace sel="//macro[@ref='Highway02sector19_macro']/@ref">HighwayVR02sector19_macro</replace>
+  <replace sel="//macro[@ref='Highway03sector19_macro']/@ref">HighwayVR03sector19_macro</replace>
+  <replace sel="//macro[@ref='Highway04sector19_macro']/@ref">HighwayVR04sector19_macro</replace>
   
   <replace sel="//macro[@name='Cluster_D_Sector20_macro']/@name">Cluster_VR_D_Sector20_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_D_Sector20_Zone54_macro']/@ref">tzoneCluster_VR_D_Sector20_Zone54_macro</replace>
@@ -265,7 +263,7 @@
   <replace sel="//macro[@ref='tzoneCluster_D_Sector20SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector20SHCon5_GateZone_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_D_Sector20SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector20SHCon6_GateZone_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_D_Sector20SHCon7_GateZone_macro']/@ref">tzoneCluster_VR_D_Sector20SHCon7_GateZone_macro</replace>
-  <replace sel="//macro[@ref='Highway06Sector20_macro']/@ref">HighwayVR06Sector20_macro</replace>
+  <replace sel="//macro[@ref='Highway06sector20_macro']/@ref">HighwayVR06sector20_macro</replace>
   
   
   <!-- Cluster T -->
