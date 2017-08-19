@@ -12,7 +12,7 @@
           </do_if>
         </actions>
       </cue>
-      <cue name="Restore_cut_stuff" comment="cockpits">
+      <cue name="Restore_cut_stuff">
         <conditions>
           <check_any>
             <cue_is_complete cue="md.Setup.Start"/>
@@ -20,6 +20,7 @@
           </check_any>
         </conditions>
         <actions>
+          <!-- Restore XR Default CP -->
           <set_value name="$add" exact="true"/>
           <do_all exact="md.$CockpitUpgradetraderLists.{1}.count" counter="$i">
             <do_if value="md.$CockpitUpgradetraderLists.{1}.{$i}.{1} == ware.spe_cockpit_default">
@@ -31,6 +32,15 @@
             <append_to_list name="md.$CockpitUpgradetraderLists.{1}" exact="[ware.spe_cockpit_default, 1, 1, 100]"/><!-- maybe .{1}.{1} - have to check -->
           </do_if>
           <remove_value name="$add"/>
+          <!-- Open ALL Gates -->
+        <find_object groupname="$Gates" class="class.gate" space="player.galaxy"/>
+        <do_all exact="$Gates.count" counter="$Counter">
+          <set_value name="$Gate" exact="$Gates.{$Counter}"/>
+          <do_if value="not $Gate.isactive and $Gate.exit.exists">
+            <debug_text text="player.module + ': Activating Jumpgate between ' + $Gate.cluster.knownname + ' and ' + $Gate.exit.cluster.knownname"/>
+            <set_object_active object="$Gate" activate="true"/>
+          </do_if>
+        </do_all>
         </actions>
       </cue>
    </cues>
