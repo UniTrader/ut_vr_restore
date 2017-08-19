@@ -191,7 +191,7 @@
   <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone75_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone75_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone76_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone76_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone77_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone77_macro</replace>
-  <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone78_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone87_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone78_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone78_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone79_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone79_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone80_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone80_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_C_Sector11_Zone81_macro']/@ref">tzoneCluster_VR_C_Sector11_Zone81_macro</replace>
@@ -311,8 +311,8 @@
   <replace sel="//macro[@ref='tzoneCluster_L_Sector02_Zone004_macro']/@ref">tzoneCluster_VR_L_Sector02_Zone004_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_L_Sector02_Zone005_macro']/@ref">tzoneCluster_VR_L_Sector02_Zone005_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_L_Sector02_Zone006_macro']/@ref">tzoneCluster_VR_L_Sector02_Zone006_macro</replace>
-  <replace sel="//macro[@ref='tzoneCluster_L_Sector02SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector02SHCon5GateZone_macro</replace>
-  <replace sel="//macro[@ref='tzoneCluster_L_Sector02SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector02SHCon6GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02SHCon5_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector02SHCon5_GateZone_macro</replace>
+  <replace sel="//macro[@ref='tzoneCluster_L_Sector02SHCon6_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector02SHCon6_GateZone_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_L_Sector02SHCon9_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector02SHCon9_GateZone_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_L_Sector02SHCon10_GateZone_macro']/@ref">tzoneCluster_VR_L_Sector02SHCon10_GateZone_macro</replace>
   
@@ -404,6 +404,5 @@
   <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone016_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone016_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone017_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone017_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone018_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone018_macro</replace>
-  <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone019_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone019_macro</replace>
   
 </diff>
