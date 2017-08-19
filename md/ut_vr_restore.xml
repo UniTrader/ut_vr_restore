@@ -15,7 +15,7 @@
       <cue name="Restore_cut_stuff">
         <conditions>
           <check_any>
-            <cue_is_complete cue="md.Setup.Start"/>
+            <!--cue_is_complete cue="md.Setup.Start"/-->
             <event_cue_completed cue="md.Setup.Start"/>
           </check_any>
         </conditions>
