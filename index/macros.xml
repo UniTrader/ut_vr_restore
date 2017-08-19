@@ -54,7 +54,7 @@
 	<entry name="cluster_vr_e_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
 	<entry name="cluster_vr_f_superhighway*" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
 	<entry name="cluster_vr_t_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\clusters"/>
-	<entry name="cluster_vr_t_Sector01_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universesechighways"/>
+	<entry name="cluster_vr_t_Sector01_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sechighways"/>
 	<entry name="cluster_vr_m_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\clusters"/>
 	<entry name="cluster_vr_m_sector01_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
 	<entry name="cluster_vr_m_sector02_macro" value="extensions\ego_vr\maps\xu_ep1_vr_universe\sectors"/>
