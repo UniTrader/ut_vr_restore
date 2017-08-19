@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <replace sel="//macro[@name='Highway01Sector01_macro']/@name">HighwayVR01Sector01_macro</replace>
   <replace sel="//macro[@name='Cluster_A_SuperHighway01_macro']/@name">Cluster_VR_A_SuperHighway01_macro</replace>
   <replace sel="//macro[@name='Cluster_A_SuperHighway02_macro']/@name">Cluster_VR_A_SuperHighway02_macro</replace>
   <replace sel="//macro[@name='Cluster_A_SuperHighway04_macro']/@name">Cluster_VR_A_SuperHighway04_macro</replace>
