@@ -37,7 +37,7 @@
         <do_all exact="$Gates.count" counter="$Counter">
           <set_value name="$Gate" exact="$Gates.{$Counter}"/>
           <do_if value="not $Gate.isactive and $Gate.exit.exists">
-            <debug_text filter="general" text="player.module + ': Activating Jumpgate between ' + $Gate.cluster.knownname + ' and ' + $Gate.exit.cluster.knownname"/>
+            <debug_text filter="general" text="player.module + ': Activating Jumpgate between ' + $Gate.cluster.knownname + ' and ' + $Gate.exit.cluster.knownname + ' ( ' + $gate.zone.macro + ' // ' + $gate.exit.zone.macro + ' )'"/>
             <set_object_active object="$Gate" activate="true"/>
           </do_if>
         </do_all>
