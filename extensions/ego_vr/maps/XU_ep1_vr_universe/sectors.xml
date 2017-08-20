@@ -385,6 +385,7 @@
   
   <!-- Cluster N -->
   <replace sel="//macro[@name='Cluster_N_Sector01_macro']/@name">Cluster_VR_N_Sector01_macro</replace>
+  <replace sel="//macro[@name='Cluster_VR_N_Sector01_macro']/properties/identification"><identification name="{20003,15}" description="{20003,16}" owner="terracorp"/></replace>
   <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone001_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone001_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone002_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone002_macro</replace>
   <replace sel="//macro[@ref='tzoneCluster_N_Sector01_Zone003_macro']/@ref">tzoneCluster_VR_N_Sector01_Zone003_macro</replace>
