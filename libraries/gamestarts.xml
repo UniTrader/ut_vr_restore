@@ -4,7 +4,7 @@
     <gamestart id="uttest" name="UniTraders Test Game Start" description="Just for Testing" image="gamestart_1" group="2">
       <info>
     </info>
-      <location galaxy="xu_ep1_universe_macro" zone="tzoneCluster_VR_N_Sector01_Zone001_macro">
+      <location galaxy="xu_ep1_universe_macro" zone="tzoneCluster_vr_n_sector01_zone001_macro">
         <position x="40296.875" y="0" z="-27819"/>
         <rotation yaw="0.0" pitch="0.0" roll="0.0"/>
       </location>
@@ -17,13 +17,13 @@
           <upgrade macro="weapon_player_shotgun_mk2_macro"/>
           <upgrade macro="weapon_player_machinegun_mk1_macro"/>
           <upgrade macro="weapon_player_mining_mk2_macro"/>
-          <upgrade macro="unit_player_ship_scanner_1_macro"/>
+          <upgrade macro="unit_player_ship_scanner_3_macro"/>
           <ammo macro="missile_player_guided_light_macro" count="8"/>
           <ammo macro="missile_player_guided_macro" count="6"/>
           <ammo macro="missile_player_guided_heavy_macro" count="4"/>
           <drone macro="units_size_drone_attackdrone_impulse_mk2_macro" count="1"/>
           <drone macro="units_size_drone_missiledrone_dumbfire_mk1_macro" count="2"/>
-          <inventory ware="spe_drop_navbeacon" count="10"/>
+          <!--inventory ware="spe_drop_navbeacon" count="10"/-->
         </ship>
       </player>
     </gamestart>
