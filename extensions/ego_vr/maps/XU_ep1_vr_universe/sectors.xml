@@ -267,7 +267,7 @@
   
   
   <!-- Cluster T -->
-  <replace sel="//macro[@name='Cluster_T_Sector01_macro']/@name">Cluster_VR_T_Sector01_macro</replace>Cluster_T_Sector01_Zone001_macro
+  <replace sel="//macro[@name='Cluster_T_Sector01_macro']/@name">Cluster_VR_T_Sector01_macro</replace>
   <replace sel="//macro[@ref='Cluster_T_Sector01_Zone001_macro']/@ref">Cluster_VR_T_Sector01_Zone001_macro</replace>
   <replace sel="//macro[@ref='Cluster_T_Sector01_Zone002_macro']/@ref">Cluster_VR_T_Sector01_Zone002_macro</replace>
   <replace sel="//macro[@ref='Cluster_T_Sector01_Zone003_macro']/@ref">Cluster_VR_T_Sector01_Zone003_macro</replace>
