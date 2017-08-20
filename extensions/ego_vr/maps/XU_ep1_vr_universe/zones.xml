@@ -164,26 +164,26 @@
   <replace sel="//macro[@name='tzoneCluster_D_Sector20_Zone55_macro']/@name">tzoneCluster_VR_D_Sector20_Zone55_macro</replace>
   <replace sel="//macro[@name='tzoneCluster_D_Sector20_Zone58_macro']/@name">tzoneCluster_VR_D_Sector20_Zone58_macro</replace>
   <replace sel="//macro[@name='tzoneCluster_D_Sector20_Zone54_macro']/@name">tzoneCluster_VR_D_Sector20_Zone54_macro</replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone009_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone010_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone011_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone012_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone003_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone002_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone005_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone004_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone007_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone006_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone001_macro']/@name"></replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone009_macro']/@name">Cluster_VR_T_Sector01_Zone009_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone010_macro']/@name">Cluster_VR_T_Sector01_Zone010_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone011_macro']/@name">Cluster_VR_T_Sector01_Zone011_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone012_macro']/@name">Cluster_VR_T_Sector01_Zone012_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone003_macro']/@name">Cluster_VR_T_Sector01_Zone003_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone002_macro']/@name">Cluster_VR_T_Sector01_Zone002_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone005_macro']/@name">Cluster_VR_T_Sector01_Zone005_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone004_macro']/@name">Cluster_VR_T_Sector01_Zone004_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone007_macro']/@name">Cluster_VR_T_Sector01_Zone007_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone006_macro']/@name">Cluster_VR_T_Sector01_Zone006_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone001_macro']/@name">Cluster_VR_T_Sector01_Zone001_macro</replace>
   <replace sel="//macro[@name='tzoneCluster_T_Sector01SHCon7_GateZone_macro']/@name">tzoneCluster_VR_T_Sector01SHCon7_GateZone_macro</replace>
   <replace sel="//macro[@name='tzoneCluster_T_Sector01SHCon8_GateZone_macro']/@name">tzoneCluster_VR_T_Sector01SHCon8_GateZone_macro</replace>
-  <replace sel="//macro[@name='Cluster_T_Sector01_Zone008_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector02_Zone006_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector02_Zone003_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector02_Zone004_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector02_Zone002_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector02_Zone005_macro']/@name"></replace>
-  <replace sel="//macro[@name='Cluster_T_Sector02_Zone001_macro']/@name"></replace>
+  <replace sel="//macro[@name='Cluster_T_Sector01_Zone008_macro']/@name">Cluster_VR_T_Sector01_Zone008_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector02_Zone006_macro']/@name">Cluster_VR_T_Sector02_Zone006_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector02_Zone003_macro']/@name">Cluster_VR_T_Sector02_Zone003_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector02_Zone004_macro']/@name">Cluster_VR_T_Sector02_Zone004_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector02_Zone002_macro']/@name">Cluster_VR_T_Sector02_Zone002_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector02_Zone005_macro']/@name">Cluster_VR_T_Sector02_Zone005_macro</replace>
+  <replace sel="//macro[@name='Cluster_T_Sector02_Zone001_macro']/@name">Cluster_VR_T_Sector02_Zone001_macro</replace>
   <replace sel="//macro[@name='tzoneCluster_T_Sector02SHCon11_GateZone_macro']/@name">tzoneCluster_VR_T_Sector02SHCon11_GateZone_macro</replace>
   <replace sel="//macro[@name='tzoneCluster_T_Sector02SHCon12_GateZone_macro']/@name">tzoneCluster_VR_T_Sector02SHCon12_GateZone_macro</replace>
   <replace sel="//macro[@name='tzoneCluster_L_Sector01SHCon11_GateZone_macro']/@name">tzoneCluster_VR_L_Sector01SHCon11_GateZone_macro</replace>
