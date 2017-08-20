@@ -23,6 +23,7 @@
           <ammo macro="missile_player_guided_heavy_macro" count="4"/>
           <drone macro="units_size_drone_attackdrone_impulse_mk2_macro" count="1"/>
           <drone macro="units_size_drone_missiledrone_dumbfire_mk1_macro" count="2"/>
+          <inventory ware="spe_drop_navbeacon" count="10"/>
         </ship>
       </player>
     </gamestart>
