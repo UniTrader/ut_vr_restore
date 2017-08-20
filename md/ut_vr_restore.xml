@@ -33,7 +33,7 @@
           </do_if>
           <remove_value name="$add"/>
           <!-- Open ALL Gates -->
-        <find_object groupname="$Gates" class="class.gate" space="player.galaxy"/>
+        <find_object name="$Gates" class="class.gate" space="player.galaxy" multiple="true"/>
         <do_all exact="$Gates.count" counter="$Counter">
           <set_value name="$Gate" exact="$Gates.{$Counter}"/>
           <do_if value="not $Gate.isactive and $Gate.exit.exists">
