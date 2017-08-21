@@ -61,7 +61,7 @@
             <find_sector name="$sectors" multiple="true" space="$clusters.{$c}"/>
             <do_all exact="$sectors.count" counter="$s">
               <debug_text filter="general" text="' | ' + $sectors.{$s}.macro + ' // ' + $sectors.{$s}.knownname"/>
-              <find_zone name="$zones" multiple="true" space="$zones.{$z}"/>
+              <find_zone name="$zones" multiple="true" space="$sectors.{$s}"/>
               <do_all exact="$zones.count" counter="$z">
                 <debug_text filter="general" text="' |  | ' + $zones.{$z}.macro + ' // ' + $zones.{$z}.knownname"/>
               </do_all>
