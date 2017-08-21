@@ -57,13 +57,13 @@
             <debug_text filter="general" text="'Galaxy Tree:'"/>
           <find_cluster name="$clusters" multiple="true"/>
           <do_all exact="$clusters.count" counter="$c">
-            <debug_text filter="general" text="$clusters.{$c}.macro.name + ' // ' + $clusters.{$c}.name"/>
+            <debug_text filter="general" text="$clusters.{$c}.macro + ' // ' + $clusters.{$c}.knownname"/>
             <find_sector name="$sectors" multiple="true"/>
             <do_all exact="$sectors.count" counter="$s">
-              <debug_text filter="general" text="' | ' + $sectors.{$s}.macro.name + ' // ' + $sectors.{$s}.name"/>
+              <debug_text filter="general" text="' | ' + $sectors.{$s}.macro + ' // ' + $sectors.{$s}.knownname"/>
               <find_zone name="$zones" multiple="true"/>
               <do_all exact="$zones.count" counter="$z">
-                <debug_text filter="general" text="' |  | ' + $zones.{$z}.macro.name + ' // ' + $zones.{$z}.name"/>
+                <debug_text filter="general" text="' |  | ' + $zones.{$z}.macro + ' // ' + $zones.{$z}.knownname"/>
               </do_all>
             </do_all>
           </do_all>
