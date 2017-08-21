@@ -87,7 +87,9 @@
 <!-- SHW Connections -->
   <replace sel="//macro[@ref='Cluster_M_SuperHighway03_macro']/@ref">Cluster_VR_M_SuperHighway03_macro</replace>
   <replace sel="//macro[@ref='Cluster_M_SuperHighway02_macro']/@ref">Cluster_VR_M_SuperHighway02_macro</replace>
-  <replace sel="//macro[@ref='Cluster_M_SuperHighway04_macro']/@ref">Cluster_VR_M_SuperHighway04_macro</replace>,
+  <replace sel="//macro[@ref='Cluster_M_SuperHighway04_macro']/@ref">Cluster_VR_M_SuperHighway04_macro</replace>
   <replace sel="//macro[@ref='Cluster_M_SuperHighway01_macro']/@ref">Cluster_VR_M_SuperHighway01_macro</replace>
-  
+
+<!-- Cluster M Stuff -->
+  <replace sel="//macro[@ref='Cluster_N_Sector01_macro']/@ref">Cluster_VR_N_Sector01_macro</replace>
 </diff>
