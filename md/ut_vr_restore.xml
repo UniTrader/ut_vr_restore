@@ -49,5 +49,25 @@
         </do_all>
         </actions>
       </cue>
+      <cue name="Debug_output">
+        <conditions>
+          <event_cue_completed cue="Restore_cut_stuff"/>
+        </conditions>
+        <actions>
+            <debug_text filter="general" text="'Galaxy Tree:'"/>
+          <find_cluster name="$clusters" multiple="true"/>
+          <do_all exact="$clusters.count" counter="$c">
+            <debug_text filter="general" text="$clusters.{$c}.macro.name + ' // ' + $clusters.{$c}.name"/>
+            <find_sector name="$sectors" multiple="true"/>
+            <do_all exact="$sectors.count" counter="$s">
+              <debug_text filter="general" text="' | ' + $sectors.{$s}.macro.name + ' // ' + $sectors.{$s}.name"/>
+              <findzone name="$zones" multiple="true"/>
+              <do_all exact="$zones.count" counter="$z">
+                <debug_text filter="general" text="' |  | ' + $zones.{$z}.macro.name + ' // ' + $zones.{$z}.name"/>
+              </do_all>
+            </do_all>
+          </do_all>
+        </actions>
+      </cue>
    </cues>
 </mdscript>
