@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <replace sel="//macro[@name='Cluster_VR_A_macro']/properties/identification/@name">\033G{20003,7}\033X</replace>
-  <replace sel="//macro[@name='cluster_VR_B_macro']/properties/identification/@name">\033G{20003,1}\033X</replace>
-  <replace sel="//macro[@name='Cluster_VR_C_macro']/properties/identification/@name">\033G{20003,5}\033X</replace>
-  <replace sel="//macro[@name='Cluster_VR_D_macro']/properties/identification/@name">\033G{20003,3}\033X</replace>
-  <replace sel="//macro[@name='Cluster_VR_T_macro']/properties/identification/@name">\033G{20003,9}\033X</replace>
-  <replace sel="//macro[@name='Cluster_VR_L_macro']/properties/identification/@name">\033G{20003,11}\033X</replace>
-  <replace sel="//macro[@name='Cluster_VR_M_macro']/properties/identification/@name">\033G{20003,13}\033X</replace>
-  <replace sel="//macro[@name='Cluster_VR_N_macro']/properties/identification/@name">\033G{20003,15}\033X</replace>
+  <replace sel="//macro[@name='Cluster_A_macro']/properties/identification/@name">\033G{20003,7}\033X</replace>
+  <replace sel="//macro[@name='cluster_B_macro']/properties/identification/@name">\033G{20003,1}\033X</replace>
+  <replace sel="//macro[@name='Cluster_C_macro']/properties/identification/@name">\033G{20003,5}\033X</replace>
+  <replace sel="//macro[@name='Cluster_D_macro']/properties/identification/@name">\033G{20003,3}\033X</replace>
+  <replace sel="//macro[@name='Cluster_T_macro']/properties/identification/@name">\033G{20003,9}\033X</replace>
+  <replace sel="//macro[@name='Cluster_L_macro']/properties/identification/@name">\033G{20003,11}\033X</replace>
+  <replace sel="//macro[@name='Cluster_M_macro']/properties/identification/@name">\033G{20003,13}\033X</replace>
+  <replace sel="//macro[@name='Cluster_N_macro']/properties/identification/@name">\033G{20003,15}\033X</replace>
 </diff>
